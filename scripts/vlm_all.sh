@@ -8,7 +8,7 @@
 # a 2-minute pause; a failed run never blocks the next one. Re-running this script resumes everything.
 # Logs: vlm_all.log (console), vlm_monitor/gpu_log.csv (GPU every 10 s), vlm_monitor/run_windows.csv (start/end/status).
 # Run:  bash vlm_all.sh 2>&1 | tee -a vlm_all.log      (inside tmux; laptop plugged in, sleep off)
-cd "$(dirname "$0")"
+cd "$(dirname "cd "$(dirname "$0")"")/.."
 MODEL=qwen3-vl:2b-instruct
 MAIN=yolov8m-worldv2_img640_fp16_separate
 OTHERS="yolov8s-worldv2_img640_fp16_separate yolov8l-worldv2_img640_fp16_separate
@@ -33,10 +33,10 @@ one () {  # run_name out_dir_or_empty
   start="$(date '+%F %T')"
   echo "=== $start START $r ==="
   if [ ! -f "vlm_sets/$r/items.csv" ]; then
-    python export_vlm_sets.py --run "full_runs/$r" || { echo "!!! export failed for $r"; echo "$r,$start,$(date '+%F %T'),export_failed" >> "$MON/run_windows.csv"; return; }
+    python scripts/export_vlm_sets.py --run "full_runs/$r" || { echo "!!! export failed for $r"; echo "$r,$start,$(date '+%F %T'),export_failed" >> "$MON/run_windows.csv"; return; }
   fi
   for attempt in 1 2; do
-    if python -u verify_vlm.py --set-dir "vlm_sets/$r" --model "$MODEL" --device rtx3050 --part main ${out:+--out "$out"}; then
+    if python -u scripts/verify_vlm.py --set-dir "vlm_sets/$r" --model "$MODEL" --device rtx3050 --part main ${out:+--out "$out"}; then
       status=ok; break
     fi
     echo "!!! $r attempt $attempt stopped; waiting 2 min before the next attempt"

@@ -1,0 +1,10 @@
+# Core dependencies (exact versions used: docs/environment.txt)
+ultralytics
+torch
+numpy
+opencv-python
+Pillow
+ijson
+nltk
+git+https://github.com/openai/CLIP.git
+# VLM verification uses a local Ollama server (https://ollama.com)

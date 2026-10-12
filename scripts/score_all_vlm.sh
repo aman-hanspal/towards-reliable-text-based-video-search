@@ -4,7 +4,7 @@
 # 2. score_vlm.py per setting -> vlm_results/<run>/vlm_summary.md  (+ a blind c_eye_check.csv per setting)
 # 3. all summaries joined into vlm_results/ALL_vlm_summaries.md  (upload this one file)
 # Run from the OVT-B-Dataset folder:  bash score_all_vlm.sh 2>&1 | tee score_all_vlm.log
-cd "$(dirname "$0")"
+cd "$(dirname "cd "$(dirname "$0")"")/.."
 TAG=rtx3050__qwen3-vl-2b-instruct
 RUNS="yolov8m-worldv2_img640_fp16_separate yolov8s-worldv2_img640_fp16_separate yolov8l-worldv2_img640_fp16_separate
       yolov8m-worldv2_img480_fp16_separate yolov8s-worldv2_img480_fp16_separate yolov8l-worldv2_img480_fp16_separate"
@@ -30,7 +30,7 @@ done
 echo "=== scoring ==="
 for r in $RUNS; do
   if [ "$r" = yolov8m-worldv2_img640_fp16_separate ]; then ans="vlm_runs/$TAG"; else ans="vlm_runs/by_run/$r/$TAG"; fi
-  python score_vlm.py --set-dir "vlm_sets/$r" --runs "$ans" --out "vlm_results/$r" > /dev/null \
+  python scripts/score_vlm.py --set-dir "vlm_sets/$r" --runs "$ans" --out "vlm_results/$r" > /dev/null \
     && { echo; echo "---"; echo; cat "vlm_results/$r/vlm_summary.md"; } >> "$ALL" \
     && echo "scored $r" || echo "!!! scoring failed for $r"
 done

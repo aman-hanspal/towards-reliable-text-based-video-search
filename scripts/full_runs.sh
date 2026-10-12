@@ -6,7 +6,7 @@
 # plus the start/end time of each run, all in full_runs/monitor/.
 # Resumable: if anything stops (crash, reboot), run this script again; finished videos are skipped.
 # Run:  bash full_runs.sh 2>&1 | tee -a full_runs.log      (keep the window open)
-cd "$(dirname "$0")"
+cd "$(dirname "cd "$(dirname "$0")"")/.."
 MON=full_runs/monitor
 mkdir -p "$MON"
 
@@ -32,7 +32,7 @@ run () {  # model imgsz mode
   local name="$(basename "$1" .pt)_img$2_fp16_$3" start end status
   start="$(date '+%F %T')"
   echo "=== $start START $name ==="
-  if python -u run_detector.py --model "$1" --imgsz "$2" --half --mode "$3" --select all --out full_runs; then
+  if python -u scripts/run_detector.py --model "$1" --imgsz "$2" --half --mode "$3" --select all --out full_runs; then
     status=ok
   else
     status=error

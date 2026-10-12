@@ -1,0 +1,62 @@
+Modified from: https://github.com/TAO-Dataset/tao/blob/master/tao/toolkit/tao/tao.py
+
+Annotation file format:
+{
+    "images" : [image],
+    "videos": [video],
+    "tracks": [track],
+    "annotations" : [annotation],
+    "categories": [category],
+    "licenses" : [license],
+}
+
+image: {
+    "id" : int,
+    "video_id": int,
+    "file_name" : str,
+    "width": int,
+    "height": int,
+    "frame_id": int,
+    "frame_index": int
+}
+video: {
+    "id": int,
+    "name": str,
+    "width" : int,
+    "height" : int,
+    "neg_category_ids": [int],
+    "not_exhaustive_category_ids": [int],
+}
+track: {
+    "id": int,
+    "category_id": int,
+    "video_id": int
+}
+category: {
+    "id": int,
+    "name": str,
+    "synset": str,  
+    "frequency":str
+}
+annotation: {
+    "id": int,
+    "image_id": int,
+    "video_id": int,
+    "track_id": int,
+    "bbox": [x,y,width,height],
+    "area": float,
+    "category_id": int，
+    "is_crowd": int
+}
+
+
+Prediction format:
+
+[{
+    "image_id" : int,
+    "category_id" : int,
+    "bbox" : [x,y,width,height],
+    "score" : float,
+    "track_id": int,
+    "video_id": int
+}]

@@ -1,0 +1,1054 @@
+category_id,name,prompt,split,method,synsets
+1,accordion,accordion,novel,exact,accordion.n.01
+2,action_camera,action camera,novel,head,camera.n.01 television_camera.n.01
+3,aerosol_can,aerosol can,base,exact,aerosol.n.02
+4,air_conditioner,air conditioner,base,exact,air_conditioner.n.01
+5,airplane,airplane,base,exact,airplane.n.01
+6,alarm_clock,alarm clock,base,exact,alarm_clock.n.01
+7,alcohol,alcohol,base,exact,alcohol.n.01 alcohol.n.02
+8,alcohol_lamp,alcohol lamp,novel,head,lamp.n.01 lamp.n.02
+9,ambulance,ambulance,base,exact,ambulance.n.01
+10,amplifier,amplifier,base,exact,amplifier.n.01
+11,anklet,anklet,base,exact,anklet.n.01 anklet.n.02 anklet.n.03
+12,ant,ant,novel,exact,ant.n.01
+13,antelope,antelope,novel,exact,antelope.n.01
+14,apple,apple,base,exact,apple.n.01 apple.n.02
+15,applesauce,applesauce,base,exact,applesauce.n.01
+16,apricot,apricot,base,exact,apricot.n.01 apricot.n.02
+17,apron,apron,base,exact,apron.n.01 apron.n.02 apron.n.04 proscenium.n.01
+18,armband,armband,base,exact,armband.n.02
+19,armchair,armchair,base,exact,armchair.n.01
+20,armoire,armoire,base,exact,armoire.n.01
+21,armor,armor,base,exact,armor.n.01 armor.n.03
+22,army_tank,army tank,novel,exact,tank.n.01
+23,ashtray,ashtray,base,exact,ashtray.n.01
+24,asparagus,asparagus,base,exact,asparagus.n.01 asparagus.n.02
+25,atomizer,atomizer,base,exact,atomizer.n.01
+26,avocado,avocado,base,exact,avocado.n.01 avocado.n.02
+27,award,award,base,exact,award.n.01 award.n.02 prize.n.01
+28,awning,awning,base,exact,awning.n.01
+29,ax,ax,base,exact,ax.n.01
+30,baboon,baboon,base,exact,baboon.n.01
+31,backpack,backpack,base,exact,backpack.n.01
+32,badger,badger,novel,exact,badger.n.02 wisconsinite.n.01
+33,bagpipe,bagpipe,base,exact,bagpipe.n.01
+34,baguet,baguet,base,exact,baguet.n.01
+35,bait,bait,base,exact,bait.n.02
+36,balance_scale,balance scale,novel,head,plate.n.14 scale.n.04 scale.n.05 scale.n.07 scale.n.08 scale.n.10
+37,ball,ball,base,exact,ball.n.01 ball.n.06 ball.n.07 ball.n.10 musket_ball.n.01 testis.n.01
+38,ballet_skirt,ballet skirt,base,exact,ballet_skirt.n.01
+39,balloon,balloon,base,exact,balloon.n.01 balloon.n.02
+40,ballpoint_pen,ballpoint pen,novel,exact,ballpoint.n.01
+41,bamboo,bamboo,base,exact,bamboo.n.01 bamboo.n.02
+42,bamboo_shoots,bamboo shoots,novel,exact,bamboo_shoot.n.01
+43,banana,banana,base,exact,banana.n.01 banana.n.02
+44,band_aid,band aid,base,exact,band_aid.n.01
+45,bandage,bandage,base,exact,bandage.n.01
+46,banjo,banjo,base,exact,banjo.n.01
+47,banner,banner,base,exact,banner.n.01 standard.n.06
+48,barbell,barbell,base,exact,barbell.n.01
+49,barcode,barcode,novel,unresolved,
+50,barrel,barrel,base,exact,barrel.n.01 barrel.n.02
+51,barrow,barrow,base,exact,barrow.n.03 burial_mound.n.01
+52,baseball,baseball,base,exact,baseball.n.02
+53,baseball_bat,baseball bat,base,exact,baseball_bat.n.01
+54,baseball_cap,baseball cap,base,exact,baseball_cap.n.01
+55,baseball_glove,baseball glove,base,exact,baseball_glove.n.01
+56,basket,basket,base,exact,basket.n.01 basket.n.03
+57,basketball_backboard,basketball backboard,base,exact,backboard.n.01
+58,bass_guitar,bass guitar,novel,exact,bass_guitar.n.01
+59,bass_horn,bass horn,base,exact,bass_horn.n.01
+60,bassoon,bassoon,novel,exact,bassoon.n.01
+61,bat_(animal),bat,base,exact,bat.n.01 bat.n.05 cricket_bat.n.01 squash_racket.n.01
+62,bath_mat,bath mat,base,exact,bath_mat.n.01
+63,bathrobe,bathrobe,base,exact,bathrobe.n.01
+64,bathtub,bathtub,base,exact,bathtub.n.01
+65,beach_towel,beach towel,novel,exact,beach_towel.n.01
+66,beachball,beachball,base,exact,beach_ball.n.01
+67,beaker,beaker,novel,exact,beaker.n.01 beaker.n.02
+68,beanbag,beanbag,base,exact,beanbag.n.01
+69,beanie,beanie,base,exact,beanie.n.01
+70,bear,bear,base,exact,bear.n.01 bear.n.02
+71,bed,bed,base,exact,bed.n.01 bed.n.02 bed.n.03 bed.n.04 bed.n.07 bed.n.08 layer.n.01 seam.n.03
+72,bedpan,bedpan,base,exact,bedpan.n.01
+73,bee,bee,novel,exact,bee.n.01
+74,beef_(food),beef,base,exact,beef.n.01 beef.n.02
+75,beeper,beeper,base,exact,beeper.n.01
+76,beer_can,beer can,base,exact,beer_can.n.01
+77,beetle,beetle,base,exact,beetle.n.01 mallet.n.03
+78,bell,bell,base,exact,bell.n.01 bell.n.06 bell.n.07 bell.n.08 bell.n.10 chime.n.01 doorbell.n.01
+79,bell_pepper,bell pepper,base,exact,bell_pepper.n.02 sweet_pepper.n.01
+80,belt,belt,base,exact,belt.n.02 belt.n.03 belt.n.06 swath.n.02
+81,belt_buckle,belt buckle,base,exact,belt_buckle.n.01
+82,beluga_whale,beluga whale,novel,head,giant.n.04 whale.n.02
+83,bench,bench,base,exact,bench.n.01 bench.n.07 terrace.n.02 workbench.n.01
+84,beret,beret,base,exact,beret.n.01
+85,bib,bib,base,exact,bib.n.01 bib.n.02
+86,bible,bible,base,exact,bible.n.02
+87,bicycle,bicycle,base,exact,bicycle.n.01
+88,bicycle_pump,bicycle pump,novel,exact,bicycle_pump.n.01
+89,billards,billards,novel,unresolved,
+90,billboard,billboard,base,exact,billboard.n.01
+91,binder,binder,base,exact,binder.n.01 binder.n.02 binder.n.03 binder.n.04
+92,binder_clip,binder clip,novel,head,cartridge_holder.n.01 clip.n.03 clip.n.04
+93,bird,bird,base,exact,bird.n.01 bird.n.02 dame.n.01 shuttlecock.n.01
+94,birthday_cake,birthday cake,base,exact,birthday_cake.n.01
+95,birthday_card,birthday card,base,exact,birthday_card.n.01
+96,blackboard,blackboard,base,exact,blackboard.n.01
+97,blanket,blanket,base,exact,blanket.n.01 blanket.n.02 blanket.n.03
+98,blazer,blazer,base,exact,blazer.n.01
+99,blender,blender,base,exact,blender.n.01
+100,blimp,blimp,base,exact,blimp.n.02 colonel_blimp.n.01
+101,blouse,blouse,base,exact,blouse.n.01
+102,board_eraser,board eraser,novel,head,eraser.n.01
+103,boat,boat,base,exact,boat.n.01 gravy_boat.n.01
+104,body_thermometer,body thermometer,novel,head,thermometer.n.01
+105,boiled_egg,boiled egg,base,exact,boiled_egg.n.01
+106,bolo_tie,bolo tie,base,exact,bolo_tie.n.01
+107,bolt,bolt,base,exact,bolt.n.02 bolt.n.03 bolt.n.06 thunderbolt.n.01
+108,bongos,bongos,novel,exact,bongo.n.01 bongo.n.02
+109,book,book,base,exact,book.n.01 book.n.02 book.n.11
+110,bookcase,bookcase,base,exact,bookcase.n.01
+111,bookmark,bookmark,base,exact,bookmark.n.01
+112,boot,boot,base,exact,boot.n.01 boot.n.02 boot.n.04 boot.n.05
+113,bottle,bottle,base,exact,bottle.n.01 bottle.n.03
+114,bottle_cap,bottle cap,base,exact,bottlecap.n.01
+115,bottle_opener,bottle opener,base,exact,bottle_opener.n.01
+116,bouquet,bouquet,base,exact,bouquet.n.01
+117,bow,bow,novel,exact,bow.n.01 bow.n.02 bow.n.03 bow.n.04 bow.n.08
+118,bow-tie,bow-tie,base,exact,bow_tie.n.01
+119,bowl,bowl,base,exact,bowl.n.01 bowl.n.03 bowl.n.07 bowl.n.08 bowling_ball.n.01 stadium.n.01
+120,bowler_hat,bowler hat,base,exact,bowler_hat.n.01
+121,bowling_ball,bowling ball,base,exact,bowling_ball.n.01
+122,box,box,base,exact,box.n.01 box.n.02 box.n.06 box.n.07 box.n.08 box.n.09
+123,boxing_glove,boxing glove,base,exact,boxing_glove.n.01
+124,bracelet,bracelet,base,exact,bracelet.n.02 watchband.n.01
+125,brass_plaque,brass plaque,base,head,brass.n.07 plaque.n.01
+126,brassiere,brassiere,base,exact,brassiere.n.01
+127,bread,bread,base,exact,bread.n.01
+128,bread-bin,bread-bin,base,exact,bread-bin.n.01
+129,broccoli,broccoli,base,exact,broccoli.n.01 broccoli.n.02
+130,broom,broom,base,exact,broom.n.01 broom.n.02 heather.n.01
+131,bubble_gum,bubble gum,base,exact,bubble_gum.n.01
+132,bucket,bucket,base,exact,bucket.n.01
+133,building_blocks,building blocks,novel,exact,building_block.n.02 unit.n.05
+134,bulldog,bulldog,base,exact,bulldog.n.01
+135,bulldozer,bulldozer,base,exact,bulldozer.n.01
+136,bulletin_board,bulletin board,base,exact,bulletin_board.n.02 bulletin_board_system.n.01
+137,bulletproof_vest,bulletproof vest,base,exact,bulletproof_vest.n.01
+138,bun,bun,base,exact,bun.n.01
+139,burette,burette,novel,exact,burette.n.01
+140,bus,bus,novel,exact,bus.n.01 bus.n.04 busbar.n.01
+141,butter,butter,base,exact,butter.n.01 butter.n.02
+142,butterfly,butterfly,base,exact,butterfly.n.01
+143,button,button,base,exact,button.n.01 button.n.03 button.n.07 clitoris.n.01 push_button.n.01 release.n.08
+144,cab_(taxi),cab,base,exact,cab.n.01 cab.n.02 cab.n.03
+145,cabbage,cabbage,novel,exact,cabbage.n.01 cabbage.n.03
+146,cabinet,cabinet,base,exact,cabinet.n.01 cabinet.n.03 cabinet.n.04
+147,cable_car,cable car,novel,exact,cable_car.n.01
+148,cage,cage,novel,exact,batting_cage.n.01 cage.n.01 cage.n.03 cage.n.04
+149,cake,cake,base,exact,cake.n.01 cake.n.03 patty.n.01
+150,calculator,calculator,base,exact,calculator.n.01 calculator.n.02
+151,calendar,calendar,base,exact,calendar.n.01 calendar.n.02 calendar.n.03
+152,camcorder,camcorder,base,exact,camcorder.n.01
+153,camera,camera,base,exact,camera.n.01 television_camera.n.01
+154,camera_lens,camera lens,base,exact,camera_lens.n.01
+155,camera_tripod,camera tripod,novel,exact,camera_tripod.n.01
+156,camper_(vehicle),camper,base,exact,camper.n.01 camper.n.02
+157,can,can,base,exact,buttocks.n.01 can.n.01 toilet.n.01 toilet.n.02
+158,can_opener,can opener,base,exact,can_opener.n.01
+159,candle,candle,base,exact,candle.n.01
+160,candle_holder,candle holder,base,exact,candlestick.n.01
+161,candy_bar,candy bar,base,exact,candy_bar.n.01
+162,candy_cane,candy cane,base,exact,candy_cane.n.01
+163,canoe,canoe,base,exact,canoe.n.01
+164,cantaloup,cantaloup,base,exact,cantaloup.n.02 cantaloupe.n.01
+165,canteen,canteen,base,exact,canteen.n.01 canteen.n.02 canteen.n.03 canteen.n.04 canteen.n.05
+166,canvas_bag,canvas bag,novel,head,bag.n.01 bag.n.04 bag.n.06 bag.n.07 base.n.03 udder.n.01
+167,car,car,novel,exact,cable_car.n.01 car.n.01 car.n.02 car.n.03 car.n.04
+168,car_battery,car battery,base,exact,car_battery.n.01
+169,car_jack,car jack,novel,head,jack.n.05 jack.n.06 jack.n.07 jack.n.08 jack.n.09 jack.n.10 jack.n.11 jack.n.12 jackfruit.n.02 laborer.n.01 mariner.n.01
+170,carabiner,carabiner,novel,exact,carabiner.n.01
+171,cargo_ship,cargo ship,base,exact,cargo_ship.n.01
+172,carnation,carnation,base,exact,carnation.n.01
+173,carpet,carpet,novel,exact,carpet.n.02 rug.n.01
+174,carrot,carrot,base,exact,carrot.n.01 carrot.n.02 carrot.n.03
+175,carton,carton,base,exact,carton.n.02
+176,casserole,casserole,base,exact,casserole.n.01 casserole.n.02
+177,cassette,cassette,base,exact,cassette.n.01
+178,cassette_player,cassette player,novel,exact,cassette_player.n.01
+179,cat,cat,base,exact,big_cat.n.01 cat-o'-nine-tails.n.01 cat.n.01 cat.n.03 caterpillar.n.02 guy.n.01 kat.n.01
+180,cattle,cattle,novel,exact,cattle.n.01
+181,cauliflower,cauliflower,base,exact,cauliflower.n.01 cauliflower.n.02
+182,cd,cd,novel,exact,cadmium.n.01 compact_disk.n.01
+183,cd_player,cd player,base,exact,cd_player.n.01
+184,cell_phone,cell phone,novel,exact,cellular_telephone.n.01
+185,cell_phone_charger,cell phone charger,novel,head,charger.n.01 charger.n.02
+186,cello,cello,novel,exact,cello.n.01
+187,centipede,centipede,novel,exact,centipede.n.01
+188,centrifuge,centrifuge,novel,exact,centrifuge.n.01
+189,certificate,certificate,novel,exact,certificate.n.01 security.n.04
+190,chair,chair,base,exact,chair.n.01 chair.n.05 electric_chair.n.01 president.n.04
+191,chaise_longue,chaise longue,base,exact,chaise_longue.n.01
+192,chalice,chalice,base,exact,chalice.n.01
+193,chalk,chalk,novel,exact,chalk.n.01 chalk.n.04 methamphetamine.n.01
+194,chandelier,chandelier,base,exact,chandelier.n.01
+195,charger,charger,novel,exact,charger.n.01 charger.n.02
+196,checkbook,checkbook,base,exact,checkbook.n.01
+197,cheese_curls,cheese curls,novel,head,curl.n.02 lock.n.02
+198,cheetah,cheetah,novel,exact,cheetah.n.01
+199,chef_hat,chef hat,novel,head,hat.n.01
+200,cheongsam,cheongsam,novel,unresolved,
+201,chessboard,chessboard,base,exact,chessboard.n.01
+202,chestnut,chestnut,novel,exact,chestnut.n.01 chestnut.n.02 chestnut.n.03 chestnut.n.06
+203,chewing_gum,chewing gum,novel,exact,chewing_gum.n.01
+204,chicken,chicken,novel,exact,chicken.n.01 chicken.n.02 wimp.n.01
+205,chickpea,chickpea,base,exact,chickpea.n.01 chickpea.n.02 chickpea.n.03
+206,chili_(vegetable),chili,base,exact,chili.n.01 chili.n.02
+207,chime,chime,base,exact,chime.n.01
+208,chinaware,chinaware,base,exact,chinaware.n.01
+209,chisel,chisel,novel,exact,chisel.n.01
+210,chocolate_bar,chocolate bar,base,exact,chocolate_bar.n.01
+211,choker,choker,base,exact,choker.n.02 choker.n.03 choker.n.04 garroter.n.01
+212,chopping_board,chopping board,base,exact,chopping_board.n.01
+213,chopstick,chopstick,base,exact,chopstick.n.01
+214,christmas_tree,christmas tree,base,exact,amabilis_fir.n.01 christmas_bush.n.01 christmas_tree.n.05 european_silver_fir.n.01 flame_tree.n.01
+215,cicada,cicada,novel,exact,cicada.n.01
+216,cigar_box,cigar box,base,exact,cigar_box.n.01
+217,cigarette,cigarette,base,exact,cigarette.n.01
+218,clam,clam,novel,exact,clam.n.01 clam.n.03
+219,clarinet,clarinet,base,exact,clarinet.n.01
+220,clasp,clasp,base,exact,clasp.n.01
+221,clippers_(for_plants),clippers,base,exact,clipper.n.02 clipper.n.03 clipper.n.04 limiter.n.01
+222,cloak,cloak,base,exact,cloak.n.01 cloak.n.02
+223,clock,clock,base,exact,clock.n.01
+224,clothes_hamper,clothes hamper,base,exact,clothes_hamper.n.01
+225,coaster,coaster,base,exact,coaster.n.01 coaster.n.02 coaster.n.03
+226,coat,coat,base,exact,coat.n.01 coat.n.03 coating.n.01
+227,coat_hanger,coat hanger,base,exact,coat_hanger.n.01
+228,coatrack,coatrack,base,exact,coatrack.n.01
+229,cockatoo,cockatoo,novel,exact,cockatoo.n.01
+230,cod,cod,novel,exact,cod.n.02 cod.n.03 pod.n.01
+231,coffee_maker,coffee maker,base,exact,coffee_maker.n.01
+232,coffee_mug,coffee mug,novel,exact,coffee_mug.n.01
+233,coffeepot,coffeepot,base,exact,coffeepot.n.01
+234,coin,coin,base,exact,coin.n.01
+235,combination_lock,combination lock,base,exact,combination_lock.n.01
+236,comic_book,comic book,base,exact,comic_book.n.01
+237,compass,compass,base,exact,compass.n.01 compass.n.04
+238,compass_(drawing_tool),compass,novel,exact,compass.n.01 compass.n.04
+239,computer_box,computer box,novel,head,box.n.01 box.n.02 box.n.06 box.n.07 box.n.08 box.n.09
+240,computer_keyboard,computer keyboard,base,exact,computer_keyboard.n.01
+241,condiment,condiment,base,exact,condiment.n.01
+242,cone,cone,base,exact,cone.n.01 cone.n.03 cone.n.04
+243,convertible_(automobile),convertible,base,exact,convertible.n.01 convertible.n.03
+244,cooler_(for_food),cooler,base,exact,cooler.n.01 cooler.n.02 cooler.n.03
+245,cornet,cornet,base,exact,cornet.n.01
+246,correction_fluid,correction fluid,novel,head,fluid.n.01 fluid.n.02
+247,correction_tape,correction tape,novel,head,magnetic_tape.n.01 tape.n.01 tape.n.02 tape.n.03 tape.n.04
+248,cotton_swab,cotton swab,novel,head,swab.n.01 swab.n.02
+249,couch,couch,novel,exact,couch.n.02 couch.n.03 sofa.n.01
+250,cougar,cougar,base,exact,cougar.n.01
+251,cow,cow,base,exact,cow.n.01 cow.n.02 cow.n.03
+252,cowboy_hat,cowboy hat,base,exact,cowboy_hat.n.01
+253,crab_(animal),crab,base,exact,cancer.n.02 cancer.n.04 crab.n.01 crab.n.02 crab.n.05 crab_louse.n.01
+254,crane,crane,novel,exact,crane.n.01 crane.n.02 crane.n.04 crane.n.05 grus.n.01
+255,crate,crate,base,exact,crate.n.01
+256,crib,crib,base,exact,crib.n.01 crib.n.03 crib.n.04
+257,crossbar,crossbar,base,exact,crossbar.n.01 crossbar.n.02 crossbar.n.03
+258,crowbar,crowbar,base,exact,crowbar.n.01
+259,crucifix,crucifix,base,exact,crucifix.n.01
+260,cruise_ship,cruise ship,base,exact,cruise_ship.n.01
+261,crutch,crutch,base,exact,crutch.n.01
+262,cucumber,cucumber,base,exact,cucumber.n.01 cucumber.n.02
+263,cup,cup,base,exact,cup.n.01 cup.n.05 cup.n.06 cup.n.07
+264,cupcake,cupcake,base,exact,cupcake.n.01
+265,curtain,curtain,base,exact,curtain.n.01 curtain.n.02
+266,cushion,cushion,base,exact,cushion.n.02 cushion.n.03 shock_absorber.n.01
+267,cuttlefish,cuttlefish,novel,exact,cuttlefish.n.01
+268,cymbal,cymbal,base,exact,cymbal.n.01
+269,dagger,dagger,base,exact,dagger.n.01
+270,dalmatian,dalmatian,base,exact,dalmatian.n.01 dalmatian.n.02
+271,dartboard,dartboard,base,exact,dartboard.n.01
+272,darts,darts,novel,exact,dart.n.01
+273,date_(fruit),date,base,exact,date.n.02 date.n.08
+274,deadbolt,deadbolt,base,exact,bolt.n.03
+275,deck_chair,deck chair,base,exact,deck_chair.n.01
+276,deer,deer,base,exact,deer.n.01
+277,defibrillator,defibrillator,novel,exact,defibrillator.n.01
+278,dehumidifier,dehumidifier,novel,unresolved,
+279,desk,desk,base,exact,desk.n.01
+280,detergent,detergent,base,exact,detergent.n.01 detergent.n.02
+281,diaper,diaper,base,exact,diaper.n.01 diaper.n.02
+282,die,die,base,exact,die.n.01 die.n.02 die.n.03
+283,dining_table,dining table,base,exact,dining_table.n.01
+284,dirt_bike,dirt bike,novel,exact,trail_bike.n.01
+285,discus,discus,novel,exact,discus.n.02
+286,dishrag,dishrag,base,exact,dishrag.n.01
+287,dishwasher,dishwasher,base,exact,dishwasher.n.01 dishwasher.n.02
+288,dispenser,dispenser,base,exact,dispenser.n.01 dispenser.n.02
+289,diving_board,diving board,base,exact,diving_board.n.01
+290,dog,dog,base,exact,andiron.n.01 cad.n.01 dog.n.01 dog.n.03 frank.n.02 frump.n.01 pawl.n.01
+291,dog_collar,dog collar,base,exact,choker.n.03 clerical_collar.n.01 dog_collar.n.01
+292,doll,doll,base,exact,dame.n.01 doll.n.01
+293,dollar,dollar,base,exact,dollar.n.01 dollar.n.02 dollar.n.03 dollar.n.04
+294,dolphin,dolphin,base,exact,dolphin.n.02 dolphinfish.n.02
+295,domestic_ass,domestic ass,base,exact,domestic_ass.n.01
+296,doorknob,doorknob,base,exact,doorknob.n.01
+297,doormat,doormat,base,exact,doormat.n.02 weakling.n.01
+298,double-sided_tape,double-sided tape,novel,head,magnetic_tape.n.01 tape.n.01 tape.n.02 tape.n.03 tape.n.04
+299,doughnut,doughnut,base,exact,doughnut.n.02
+300,dove,dove,base,exact,columba.n.01 dove.n.01 dove.n.02 squab.n.01
+301,dragonfly,dragonfly,base,exact,dragonfly.n.01
+302,dragonfruit,dragonfruit,novel,unresolved,
+303,drawer,drawer,base,exact,draftsman.n.02 drawer.n.01 drawer.n.02
+304,drawing_board,drawing board,novel,exact,drafting_board.n.01
+305,dress,dress,base,exact,apparel.n.01 attire.n.01 dress.n.01
+306,dress_hat,dress hat,base,exact,dress_hat.n.01
+307,dresser,dresser,base,exact,chest_of_drawers.n.01 dresser.n.02 dresser.n.03 dresser.n.05 dressing_table.n.01
+308,drill,drill,base,exact,drill.n.01 drill.n.02
+309,drone,drone,base,exact,dawdler.n.01 drone.n.01 drone.n.04 drone.n.05
+310,dropper,dropper,base,exact,dropper.n.01
+311,drum_(musical_instrument),drum,base,exact,drum.n.01 drum.n.04 drum.n.06
+312,drum_set,drum set,novel,head,hardening.n.02 set.n.13 stage_set.n.01
+313,drumstick,drumstick,base,exact,drumstick.n.02
+314,duck,duck,base,exact,duck.n.01 duck.n.03 duck.n.04
+315,duct_tape,duct tape,base,exact,duct_tape.n.01
+316,dulcimer,dulcimer,novel,exact,dulcimer.n.01 dulcimer.n.02
+317,dumbbell,dumbbell,base,exact,dumbbell.n.01 dumbbell.n.02
+318,dumpling,dumpling,novel,exact,dumpling.n.01 dumpling.n.02
+319,durian,durian,novel,exact,durian.n.01 durian.n.02
+320,dustpan,dustpan,base,exact,dustpan.n.02
+321,e-reader,e-reader,novel,head,lector.n.01 lector.n.02 proofreader.n.01 reader.n.01 reader.n.03 reader.n.08 reviewer.n.01 subscriber.n.02
+322,eagle,eagle,base,exact,eagle.n.01
+323,earless_seal,earless seal,novel,exact,earless_seal.n.01
+324,earmuffs,earmuffs,novel,exact,earmuff.n.01
+325,earphone,earphone,base,exact,earphone.n.01
+326,earplug,earplug,base,exact,earplug.n.01 earplug.n.02
+327,earring,earring,base,exact,earring.n.01
+328,easel,easel,base,exact,easel.n.01
+329,eclair,eclair,base,exact,eclair.n.01
+330,eel,eel,base,exact,eel.n.01 eel.n.02
+331,egg,egg,base,exact,egg.n.01 egg.n.02 testis.n.01
+332,egg_roll,egg roll,base,exact,egg_roll.n.01
+333,egg_tart,egg tart,novel,head,prostitute.n.01 tart.n.02 tart.n.03
+334,egg_yolk,egg yolk,base,exact,egg_yolk.n.01
+335,eggbeater,eggbeater,base,exact,eggbeater.n.02 helicopter.n.01
+336,eggplant,eggplant,base,exact,eggplant.n.01 eggplant.n.02
+337,electric_bicycle,electric bicycle,novel,head,bicycle.n.01
+338,electric_chair,electric chair,base,exact,electric_chair.n.01
+339,electric_heater,electric heater,novel,exact,electric_heater.n.01
+340,electric_kettle,electric kettle,novel,head,kettle.n.01 kettle.n.04 kettle_hole.n.01
+341,elephant,elephant,base,exact,elephant.n.01
+342,envelope,envelope,base,exact,envelope.n.01 envelope.n.02 envelope.n.04 envelope.n.06
+343,eraser,eraser,base,exact,eraser.n.01
+344,escargot,escargot,base,exact,escargot.n.01
+345,excavator,excavator,novel,exact,excavator.n.01 power_shovel.n.01
+346,eye_liner,eye liner,novel,exact,eyeliner.n.01
+347,eye_shadow,eye shadow,novel,exact,eyeshadow.n.01
+348,eyepatch,eyepatch,base,exact,eyepatch.n.01
+349,face_mask,face mask,novel,exact,face_mask.n.01
+350,falcon,falcon,base,exact,falcon.n.01
+351,fan,fan,base,exact,fan.n.01 fan.n.03 sports_fan.n.01
+352,faucet,faucet,base,exact,faucet.n.01
+353,fedora,fedora,base,exact,fedora.n.01
+354,ferret,ferret,base,exact,black-footed_ferret.n.01 ferret.n.02
+355,fig_(fruit),fig,base,exact,fig.n.02 fig.n.04
+356,file_(tool),file,base,exact,file.n.03 file.n.04
+357,file_folder,file folder,novel,exact,file_folder.n.01
+358,fire_alarm,fire alarm,base,exact,fire_alarm.n.02
+359,fire_extinguisher,fire extinguisher,base,exact,fire_extinguisher.n.01
+360,fire_truck,fire truck,novel,exact,fire_engine.n.01
+361,firefly,firefly,novel,exact,firefly.n.01 firefly.n.02
+362,fireplace,fireplace,base,exact,fireplace.n.01
+363,fireplug,fireplug,base,exact,fireplug.n.01
+364,first-aid_kit,first-aid kit,base,exact,first-aid_kit.n.01
+365,fish,fish,base,exact,fish.n.01 fish.n.02 pisces.n.01 pisces.n.02
+366,fishbowl,fishbowl,base,exact,fishbowl.n.02
+367,fishing_rod,fishing rod,base,exact,fishing_rod.n.01
+368,flag,flag,base,exact,flag.n.01 flag.n.06 flag.n.07 iris.n.01 pin.n.08
+369,flagpole,flagpole,base,exact,flagpole.n.02 range_pole.n.01
+370,flash_drive,flash drive,novel,head,drive.n.02 drive.n.10 drive.n.11 driveway.n.01
+371,flashlight,flashlight,base,exact,flashlight.n.01
+372,flip-flop_(sandal),flip-flop,base,exact,flip-flop.n.02 flip-flop.n.03
+373,flower_arrangement,flower arrangement,base,exact,flower_arrangement.n.01
+374,flowerpot,flowerpot,base,exact,pot.n.04
+375,flute,flute,novel,exact,flute.n.01 flute.n.02
+376,fly,fly,novel,exact,fly.n.01 fly.n.03 fly.n.05 tent-fly.n.01
+377,flying_disc,flying disc,novel,head,disk.n.02 magnetic_disk.n.01 phonograph_record.n.01
+378,folding_knife,folding knife,novel,head,knife.n.01 knife.n.02
+379,football_(american),football,base,exact,football.n.02
+380,footstool,footstool,base,exact,footstool.n.01
+381,fork,fork,base,exact,crotch.n.02 fork.n.01 fork.n.04
+382,forklift,forklift,base,exact,forklift.n.01
+383,fox,fox,novel,exact,dodger.n.01 fox.n.01 fox.n.03 fox.n.04 fox.n.05 fox.n.06
+384,fragrance,fragrance,novel,exact,aroma.n.02 bouquet.n.02
+385,freight_car,freight car,base,exact,freight_car.n.01
+386,french_horn,french horn,novel,exact,french_horn.n.01
+387,fridge_magnet,fridge magnet,novel,head,magnet.n.01
+388,fried_chicken,fried chicken,novel,head,chicken.n.01 chicken.n.02 wimp.n.01
+389,frisbee,frisbee,base,exact,frisbee.n.01
+390,frog,frog,base,exact,frog.n.01 frog.n.02 frog.n.03
+391,fruit_juice,fruit juice,base,exact,fruit_juice.n.01
+392,fume_hood,fume hood,base,head,hood.n.01 hood.n.02 hood.n.04 hood.n.05 hood.n.06 hood.n.07 hood.n.08 hood.n.09 hood.n.10
+393,funnel,funnel,base,exact,funnel.n.02 funnel.n.03
+394,game_console,game console,novel,head,cabinet.n.04 console.n.02 console.n.03 console_table.n.01
+395,gameboard,gameboard,base,exact,board.n.09
+396,gamepad,gamepad,novel,unresolved,
+397,garbage_truck,garbage truck,base,exact,garbage_truck.n.01
+398,garlic,garlic,base,exact,garlic.n.01 garlic.n.02
+399,gas_pipe,gas pipe,novel,head,organ_pipe.n.01 pipe.n.01 pipe.n.02 pipe.n.04
+400,gas_stove,gas stove,novel,exact,gas_range.n.01
+401,gasmask,gasmask,base,exact,gasmask.n.01
+402,gazelle,gazelle,base,exact,gazelle.n.01
+403,gemstone,gemstone,base,exact,gem.n.02
+404,generator,generator,base,exact,generator.n.01 generator.n.02 generator.n.03 generator.n.04
+405,giant_panda,giant panda,base,exact,giant_panda.n.01
+406,gift_wrap,gift wrap,base,exact,gift_wrap.n.01
+407,giraffe,giraffe,base,exact,giraffe.n.01
+408,glass_(drink_container),glass,base,exact,field_glass.n.01 glass.n.01 glass.n.02 glass.n.07 looking_glass.n.01 methamphetamine.n.01
+409,glider,glider,novel,exact,glider.n.01
+410,globe,globe,base,exact,earth.n.01 globe.n.03
+411,glockenspiel,glockenspiel,novel,exact,glockenspiel.n.01
+412,glove,glove,base,exact,baseball_glove.n.01 boxing_glove.n.01 glove.n.02
+413,glue,glue,novel,exact,glue.n.01
+414,go-kart,go-kart,novel,exact,go-kart.n.01
+415,goat,goat,novel,exact,butt.n.03 capricorn.n.01 capricorn.n.03 goat.n.01
+416,goggles,goggles,base,exact,goggles.n.01
+417,goldfish,goldfish,base,exact,goldfish.n.01
+418,golf_ball,golf ball,novel,exact,golf_ball.n.01
+419,golf_club,golf club,base,exact,golf_club.n.02
+420,golfcart,golfcart,base,exact,golfcart.n.01
+421,goose,goose,base,exact,fathead.n.01 goose.n.01 goose.n.03
+422,gorilla,gorilla,base,exact,gorilla.n.01
+423,gourd,gourd,base,exact,gourd.n.01 gourd.n.02 gourd.n.03
+424,grapefruit,grapefruit,novel,exact,grapefruit.n.01 grapefruit.n.02
+425,grasshopper,grasshopper,novel,exact,grasshopper.n.01 grasshopper.n.02
+426,grater,grater,base,exact,grater.n.01
+427,gravestone,gravestone,base,exact,gravestone.n.01
+428,green_onion,green onion,base,exact,green_onion.n.01
+429,green_plants_(potted_plants),green plants,novel,head,plant.n.01 plant.n.02 plant.n.03
+430,guava,guava,novel,exact,guava.n.01 guava.n.02 guava.n.03
+431,guitar,guitar,base,exact,guitar.n.01
+432,gun,gun,base,exact,accelerator.n.01 artillery.n.01 grease-gun.n.01 gun.n.01 gunman.n.01 gunman.n.02
+433,hair_curler,hair curler,base,exact,curler.n.01
+434,hair_dryer,hair dryer,base,exact,hand_blower.n.01
+435,hairbrush,hairbrush,base,exact,hairbrush.n.01
+436,hairpin,hairpin,base,exact,hairpin.n.01
+437,halter_top,halter top,base,head,circus_tent.n.01 peak.n.04 top.n.01 top.n.02 top.n.07 top.n.08 top.n.09 top.n.10
+438,ham,ham,base,exact,ham.n.01 ham.n.02 ham.n.03 ham.n.04
+439,hamburger,hamburger,base,exact,ground_beef.n.01 hamburger.n.01
+440,hammer,hammer,base,exact,hammer.n.01 hammer.n.02 hammer.n.05 hammer.n.06 hammer.n.07 mallet.n.02 malleus.n.01
+441,hammock,hammock,base,exact,hammock.n.02 knoll.n.01
+442,hamper,hamper,base,exact,hamper.n.02 shackle.n.01
+443,hamster,hamster,base,exact,hamster.n.01
+444,hand_grips_strengthener,hand grips strengthener,novel,head,strengthener.n.01
+445,hand_towel,hand towel,base,exact,hand_towel.n.01
+446,handbag,handbag,base,exact,bag.n.04
+447,handcart,handcart,base,exact,handcart.n.01
+448,handcuff,handcuff,base,exact,handcuff.n.01
+449,handkerchief,handkerchief,base,exact,handkerchief.n.01
+450,handle,handle,base,exact,handle.n.01
+451,handsaw,handsaw,base,exact,handsaw.n.01
+452,hang_glider,hang glider,novel,exact,hang_glider.n.01 hang_glider.n.02
+453,hard_drive,hard drive,novel,exact,disk_drive.n.01
+454,hardback_book,hardback book,base,head,book.n.01 book.n.02 book.n.11
+455,harmonium,harmonium,base,exact,harmonium.n.01
+456,hat,hat,base,exact,hat.n.01
+457,headband,headband,base,exact,headband.n.01
+458,headboard,headboard,base,exact,headboard.n.01
+459,headlamp,headlamp,novel,exact,headlight.n.01
+460,headlight,headlight,base,exact,headlight.n.01
+461,headscarf,headscarf,base,exact,headscarf.n.01
+462,headset,headset,base,exact,headset.n.01
+463,heart,heart,base,exact,center.n.01 heart.n.02 heart.n.08 heart.n.10
+464,hedgehog,hedgehog,novel,exact,hedgehog.n.02 porcupine.n.01
+465,helicopter,helicopter,base,exact,helicopter.n.01
+466,helmet,helmet,base,exact,helmet.n.01 helmet.n.02
+467,heron,heron,base,exact,hero.n.04 heron.n.02
+468,high_heels,high heels,novel,head,cad.n.01 heel.n.01 heel.n.02 heel.n.04 heel.n.05 heel.n.06
+469,high_jump_standards,high jump standards,novel,head,standard.n.05 standard.n.06
+470,hinge,hinge,base,exact,hinge.n.01
+471,hippopotamus,hippopotamus,base,exact,hippopotamus.n.01
+472,hockey_stick,hockey stick,base,exact,hockey_stick.n.01
+473,hoodie,hoodie,novel,unresolved,
+474,hookah,hookah,base,exact,hookah.n.01
+475,horse,horse,base,exact,horse.n.01 horse.n.02 knight.n.02 sawhorse.n.01
+476,horse_buggy,horse buggy,base,head,buggy.n.01
+477,hot_dog,hot dog,novel,exact,frank.n.02 hotdog.n.01 hotdog.n.02
+478,hot-air_balloon,hot-air balloon,base,exact,hot-air_balloon.n.01
+479,hotplate,hotplate,base,exact,hot_plate.n.01
+480,hourglass,hourglass,base,exact,hourglass.n.01
+481,houseboat,houseboat,base,exact,houseboat.n.01
+482,humidifier,humidifier,novel,unresolved,
+483,hurdle,hurdle,novel,exact,hurdle.n.01
+484,ice_pack,ice pack,base,exact,ice_pack.n.01 pack_ice.n.01
+485,ice_skate,ice skate,base,exact,ice_skate.n.01
+486,icecream,icecream,base,exact,ice_cream.n.01
+487,igniter,igniter,base,exact,igniter.n.01 lighter.n.02
+488,incense_burner,incense burner,novel,head,burner.n.01 burner.n.02
+489,inflatable_bed,inflatable bed,novel,head,bed.n.01 bed.n.02 bed.n.03 bed.n.04 bed.n.07 bed.n.08 layer.n.01 seam.n.03
+490,infusion_pump,infusion pump,novel,head,heart.n.02 pump.n.01 pump.n.03
+491,iron_(for_clothing),iron,base,exact,iron.n.01 iron.n.02 iron.n.03 iron.n.04
+492,ironing_board,ironing board,base,exact,ironing_board.n.01
+493,jackal,jackal,novel,exact,jackal.n.01
+494,jacket,jacket,base,exact,crown.n.11 jacket.n.01 jacket.n.02 jacket.n.04 jacket.n.05
+495,jackfruit,jackfruit,novel,exact,jackfruit.n.01 jackfruit.n.02
+496,jaguar,jaguar,novel,exact,jaguar.n.01
+497,jar,jar,base,exact,jar.n.01
+498,javelin,javelin,novel,exact,javelin.n.02
+499,jean,jean,base,exact,denim.n.02 jean.n.01
+500,jeep,jeep,base,exact,jeep.n.01
+501,jellyfish,jellyfish,novel,exact,jellyfish.n.02 portuguese_man-of-war.n.01
+502,jersey,jersey,base,exact,jersey.n.02 jersey.n.03 jersey.n.04 jersey.n.05 new_jersey.n.01
+503,jet_plane,jet plane,base,exact,jet.n.01
+504,joystick,joystick,base,exact,joystick.n.02 stick.n.03
+505,jump_rope,jump rope,novel,exact,jump_rope.n.01
+506,kangaroo,kangaroo,novel,exact,kangaroo.n.01
+507,kayak,kayak,base,exact,kayak.n.01
+508,keg,keg,base,exact,keg.n.02
+509,kennel,kennel,base,exact,kennel.n.01
+510,kettle,kettle,base,exact,kettle.n.01 kettle.n.04 kettle_hole.n.01
+511,kettlebell,kettlebell,novel,unresolved,
+512,key,key,base,exact,key.n.01 key.n.07 key.n.08 key.n.09 key.n.15 keystone.n.02 samara.n.01 winder.n.02
+513,keycard,keycard,base,exact,keycard.n.01
+514,kimono,kimono,base,exact,kimono.n.01
+515,kitchen_paper,kitchen paper,novel,head,newspaper.n.01 newspaper.n.03 paper.n.01 paper.n.04 paper.n.05
+516,kite,kite,base,exact,kite.n.03 kite.n.04
+517,kiwi_fruit,kiwi fruit,base,exact,kiwi.n.03
+518,knee_pad,knee pad,base,exact,knee_pad.n.01
+519,knife,knife,base,exact,knife.n.01 knife.n.02
+520,knob,knob,base,exact,knob.n.01 knob.n.02 knob.n.04
+521,koala,koala,base,exact,koala.n.01
+522,lab_coat,lab coat,base,exact,lab_coat.n.01
+523,ladder,ladder,base,exact,ladder.n.01
+524,lamb-chop,lamb-chop,base,exact,lamb_chop.n.01
+525,lamp,lamp,base,exact,lamp.n.01 lamp.n.02
+526,lamppost,lamppost,base,exact,lamppost.n.01
+527,lampshade,lampshade,base,exact,lampshade.n.01
+528,lantern,lantern,base,exact,lantern.n.01
+529,lanyard,lanyard,base,exact,lanyard.n.01 lanyard.n.02 lanyard.n.03
+530,laptop,laptop,novel,exact,laptop.n.01
+531,lasagna,lasagna,base,exact,lasagna.n.01 lasagna.n.02
+532,latch,latch,base,exact,latch.n.01 latch.n.02
+533,lawn_mower,lawn mower,base,exact,lawn_mower.n.01
+534,leather_shoes,leather shoes,novel,head,brake_shoe.n.01 horseshoe.n.02 shoe.n.01 shoe.n.02
+535,legging_(clothing),legging,base,exact,legging.n.01
+536,lego,lego,base,exact,lego.n.01
+537,lemon,lemon,base,exact,lemon.n.01 lemon.n.03 lemon.n.05
+538,leopard,leopard,novel,exact,leopard.n.01 leopard.n.02
+539,leopard_cat,leopard cat,novel,exact,leopard_cat.n.01
+540,lettuce,lettuce,base,exact,lettuce.n.02 lettuce.n.03
+541,level_(tools),level,novel,exact,floor.n.02 horizontal_surface.n.01 level.n.05
+542,license_plate,license plate,base,exact,license_plate.n.01
+543,life_buoy,life buoy,base,exact,life_buoy.n.01
+544,lightbulb,lightbulb,base,exact,light_bulb.n.01
+545,lighter,lighter,novel,exact,barge.n.01 igniter.n.01 lighter.n.02
+546,lighthouse,lighthouse,novel,exact,beacon.n.03
+547,lion,lion,base,exact,leo.n.01 leo.n.03 lion.n.01 lion.n.02
+548,lipstick,lipstick,novel,exact,lipstick.n.01
+549,lizard,lizard,base,exact,lizard.n.01 lounge_lizard.n.01
+550,loader,loader,novel,exact,loader.n.02 stevedore.n.01
+551,lobster,lobster,novel,exact,lobster.n.01 lobster.n.02
+552,locker,locker,base,exact,cabinet.n.03 footlocker.n.01 locker.n.02
+553,log,log,base,exact,log.n.01 log.n.05
+554,long_jump_pit,long jump pit,novel,head,colliery.n.01 orchestra_pit.n.01 pit.n.01 pit.n.02 pit.n.05 pit.n.06 pit.n.07 pit.n.08 pit.n.09 stone.n.06
+555,lychee,lychee,novel,exact,litchi.n.02
+556,machine_gun,machine gun,base,exact,machine_gun.n.01
+557,magic_cube,magic cube,novel,head,cube.n.04 cube.n.05
+558,magnet,magnet,base,exact,magnet.n.01
+559,magpie,magpie,novel,exact,chatterer.n.01 magpie.n.01 magpie.n.02
+560,mailbox_(at_home),mailbox,base,exact,mailbox.n.01 postbox.n.01
+561,mallard,mallard,base,exact,mallard.n.01
+562,manatee,manatee,base,exact,manatee.n.01
+563,mandolin,mandolin,novel,exact,mandolin.n.01
+564,mango,mango,novel,exact,mango.n.01 mango.n.02
+565,manhole,manhole,base,exact,manhole.n.01
+566,manual_(instruction_book),manual,novel,exact,manual.n.01
+567,map,map,base,exact,map.n.01
+568,marker,marker,base,exact,marker.n.01 marker.n.03
+569,marten,marten,novel,exact,marten.n.01
+570,martini,martini,base,exact,martini.n.01
+571,mashed_potato,mashed potato,base,exact,mashed_potato.n.01
+572,masher,masher,base,exact,masher.n.02 wolf.n.04
+573,mask,mask,base,exact,mask.n.01 mask.n.04
+574,mast,mast,base,exact,mast.n.01 mast.n.02 mast.n.03 mast.n.04
+575,mat_(gym_equipment),mat,base,exact,mat.n.01 mat.n.02 mat.n.03 mat.n.04 mat.n.07
+576,match,match,novel,exact,catch.n.03 match.n.01 match.n.03 match.n.04 peer.n.01
+577,matchbox,matchbox,base,exact,matchbox.n.01
+578,mealworms,mealworms,novel,exact,mealworm.n.01
+579,measuring_stick,measuring stick,base,exact,measuring_stick.n.01
+580,meatball,meatball,base,exact,meatball.n.01
+581,mechanical_pencil,mechanical pencil,novel,head,pencil.n.01 pencil.n.02 pencil.n.04
+582,medal,medal,novel,exact,decoration.n.02
+583,megaphone,megaphone,novel,exact,megaphone.n.01
+584,memo_pad,memo pad,novel,head,diggings.n.02 launching_pad.n.01 pad.n.01 pad.n.02 pad.n.03 pad.n.04 pad.n.07
+585,microphone,microphone,base,exact,microphone.n.01
+586,microscope,microscope,base,exact,microscope.n.01
+587,microwave,microwave,novel,exact,microwave.n.01 microwave.n.02
+588,milk_can,milk can,base,exact,milk_can.n.01
+589,milkshake,milkshake,base,exact,milkshake.n.01
+590,minivan,minivan,base,exact,minivan.n.01
+591,mirror,mirror,base,exact,mirror.n.01
+592,mitten,mitten,base,exact,mitten.n.01
+593,mixer_(kitchen_tool),mixer,base,exact,mixer.n.02 mixer.n.03 mixer.n.04
+594,mole,mole,novel,exact,breakwater.n.01 counterspy.n.01 mole.n.03 mole.n.06
+595,monitor_(computer_equipment),monitor,novel,exact,admonisher.n.01 monitor.n.03 monitor.n.04 monitor.n.05 monitor.n.06 monitor.n.07 proctor.n.01
+596,monkey,monkey,base,exact,imp.n.02 monkey.n.01
+597,moose,moose,novel,exact,elk.n.01
+598,mop,mop,novel,exact,swab.n.02
+599,motorcycle,motorcycle,base,exact,motorcycle.n.01
+600,mouse,mouse,novel,exact,mouse.n.01 mouse.n.03 mouse.n.04
+601,mousepad,mousepad,base,exact,mousepad.n.01
+602,mug,mug,base,exact,chump.n.01 countenance.n.03 mug.n.04
+603,mushroom,mushroom,base,exact,mushroom.n.01 mushroom.n.02 mushroom.n.03 mushroom.n.04 mushroom.n.05
+604,music_box,music box,novel,exact,music_box.n.01
+605,music_stand,music stand,novel,exact,music_stand.n.01
+606,music_stool,music stool,base,exact,music_stool.n.01
+607,nail_polish,nail polish,novel,exact,nail_polish.n.01
+608,nailfile,nailfile,base,exact,nailfile.n.01
+609,napkin,napkin,base,exact,diaper.n.01 napkin.n.01
+610,nebulizer,nebulizer,novel,exact,atomizer.n.01
+611,necklace,necklace,base,exact,necklace.n.01
+612,necktie,necktie,base,exact,necktie.n.01
+613,nectarine,nectarine,novel,exact,nectarine.n.01 nectarine.n.02
+614,needle,needle,base,exact,acerate_leaf.n.01 needle.n.02 needle.n.03 phonograph_needle.n.01
+615,nest,nest,base,exact,nest.n.01 nest.n.02 nest.n.03 nest.n.05
+616,nightingale,nightingale,novel,exact,nightingale.n.01 nightingale.n.02
+617,nightshirt,nightshirt,base,exact,nightshirt.n.01
+618,nightstand,nightstand,novel,unresolved,
+619,noodle,noodle,novel,exact,attic.n.03 noodle.n.01
+620,nosebag_(for_animals),nosebag,base,exact,nosebag.n.01
+621,notebook,notebook,base,exact,notebook.n.01 notebook.n.02
+622,notepad,notepad,base,exact,notepad.n.01
+623,nut,nut,base,exact,addict.n.01 crackpot.n.01 nut.n.01 nut.n.03 testis.n.01
+624,oar,oar,base,exact,oar.n.01
+625,oboe,oboe,novel,exact,oboe.n.01
+626,octopus_(animal),octopus,base,exact,octopus.n.01 octopus.n.02
+627,octopus_(food),octopus,base,exact,octopus.n.01 octopus.n.02
+628,oil_lamp,oil lamp,base,exact,oil_lamp.n.01
+629,oil_tanker,oil tanker,novel,exact,oil_tanker.n.01
+630,okra,okra,novel,exact,gumbo.n.03 okra.n.01 okra.n.02
+631,onion,onion,base,exact,onion.n.01 onion.n.02 onion.n.03
+632,orange_(fruit),orange,base,exact,orange.n.01 orange.n.03 orange.n.04 orange.n.05
+633,organ,organ,novel,exact,electric_organ.n.01 harmonium.n.01 organ.n.01 organ.n.04 organ.n.05
+634,ostrich,ostrich,base,exact,ostrich.n.01 ostrich.n.02
+635,otoscope,otoscope,novel,exact,otoscope.n.01
+636,oven,oven,base,exact,oven.n.01
+637,oxygen_concentrator,oxygen concentrator,novel,unresolved,
+638,oyster,oyster,novel,exact,huitre.n.01 oyster.n.01
+639,pad,pad,base,exact,diggings.n.02 launching_pad.n.01 pad.n.01 pad.n.02 pad.n.03 pad.n.04 pad.n.07
+640,pad_(electronic_product),pad,novel,exact,diggings.n.02 launching_pad.n.01 pad.n.01 pad.n.02 pad.n.03 pad.n.04 pad.n.07
+641,padlock,padlock,base,exact,padlock.n.01
+642,paintbrush,paintbrush,base,exact,paintbrush.n.01
+643,painting,painting,base,exact,painting.n.01
+644,palette,palette,base,exact,palette.n.02 pallette.n.01
+645,pan_(for_cooking),pan,base,exact,pan.n.01 pan.n.03
+646,papaya,papaya,base,exact,papaya.n.01 papaya.n.02
+647,paper_bag,paper bag,novel,exact,sack.n.01
+648,paper_clip,paper clip,novel,exact,paper_clip.n.01
+649,parachute,parachute,base,exact,parachute.n.01
+650,parachutist,parachutist,novel,exact,parachutist.n.01
+651,parasail_(sports),parasail,base,exact,parasail.n.01
+652,parchment,parchment,base,exact,parchment.n.01 parchment.n.02
+653,parrot,parrot,base,exact,parrot.n.01 parrot.n.02
+654,passenger_ship,passenger ship,base,exact,passenger_ship.n.01
+655,passion_fruit,passion fruit,novel,exact,passion_fruit.n.01
+656,pasta_strainer,pasta strainer,novel,head,strainer.n.01
+657,pastry,pastry,base,exact,pastry.n.01 pastry.n.02
+658,peach,peach,base,exact,peach.n.01 peach.n.03 smasher.n.02
+659,peacock,peacock,novel,exact,peacock.n.01 peacock.n.02
+660,pear,pear,base,exact,pear.n.01 pear.n.02
+661,pegboard,pegboard,base,exact,pegboard.n.01
+662,pen,pen,base,exact,pen.n.01 pen.n.02 pen.n.05 penitentiary.n.01 playpen.n.01
+663,pencil,pencil,base,exact,pencil.n.01 pencil.n.02 pencil.n.04
+664,pencil_box,pencil box,base,exact,pencil_box.n.01
+665,pencil_sharpener,pencil sharpener,base,exact,pencil_sharpener.n.01
+666,pendulum,pendulum,base,exact,pendulum.n.01
+667,penguin,penguin,base,exact,penguin.n.01
+668,persimmon,persimmon,base,exact,persimmon.n.01 persimmon.n.02
+669,person,person,base,exact,person.n.01 person.n.02
+670,petri_dish,petri dish,novel,exact,petri_dish.n.01
+671,phonograph_record,phonograph record,base,exact,phonograph_record.n.01
+672,piano,piano,base,exact,piano.n.01
+673,pickaxe,pickaxe,novel,exact,pick.n.07
+674,pickup_truck,pickup truck,base,exact,pickup.n.01
+675,picnic_basket,picnic basket,novel,head,basket.n.01 basket.n.03
+676,picture,picture,novel,exact,movie.n.01 painting.n.01 photograph.n.01 picture.n.01
+677,pig,pig,novel,exact,bull.n.05 hog.n.01 hog.n.03 pig.n.06 pig_bed.n.01 slob.n.01
+678,pigeon,pigeon,base,exact,pigeon.n.01
+679,piggy_bank,piggy bank,base,exact,piggy_bank.n.01
+680,pill,pill,novel,exact,pill.n.01 pill.n.02 pill.n.03 pill.n.05
+681,pillow,pillow,base,exact,pillow.n.01
+682,pin_(non_jewelry),pin,base,exact,bowling_pin.n.01 peg.n.06 pin.n.01 pin.n.05 pin.n.07 pin.n.08 pin.n.09 pivot.n.02
+683,pineapple,pineapple,base,exact,pineapple.n.01 pineapple.n.02
+684,pinecone,pinecone,base,exact,pinecone.n.01
+685,ping-pong_ball,ping-pong ball,base,exact,ping-pong_ball.n.01
+686,pinwheel,pinwheel,base,exact,catherine_wheel.n.01 pinwheel.n.01 pinwheel.n.02 pinwheel.n.03
+687,pipe,pipe,base,exact,organ_pipe.n.01 pipe.n.01 pipe.n.02 pipe.n.04
+688,pirate_flag,pirate flag,base,exact,black_flag.n.01
+689,pistol,pistol,base,exact,pistol.n.01
+690,pizza,pizza,base,exact,pizza.n.01
+691,plastic_bag,plastic bag,novel,exact,plastic_bag.n.01
+692,plate,plate,base,exact,denture.n.01 home_plate.n.01 plate.n.02 plate.n.03 plate.n.04 plate.n.06 plate.n.07 plate.n.08 plate.n.09 plate.n.10 plate.n.11 plate.n.12 plate.n.13 plate.n.14
+693,platypus,platypus,novel,exact,platypus.n.01
+694,playpen,playpen,base,exact,playpen.n.01
+695,pliers,pliers,base,exact,plier.n.01 pliers.n.01
+696,plow_(farm_equipment),plow,base,exact,plow.n.01
+697,plume,plume,base,exact,feather.n.01 plume.n.02
+698,pocket_watch,pocket watch,base,exact,pocket_watch.n.01
+699,poker_chip,poker chip,base,exact,chip.n.06
+700,polar_bear,polar bear,base,exact,ice_bear.n.01
+701,pole,pole,base,exact,pole.n.01 pole.n.02 pole.n.06 pole.n.07 pole.n.09 pole.n.10 terminal.n.02
+702,police_car,police car,novel,exact,cruiser.n.01
+703,polo_shirt,polo shirt,base,exact,polo_shirt.n.01
+704,pomegranate,pomegranate,novel,exact,pomegranate.n.01 pomegranate.n.02
+705,pool_cue,pool cue,novel,exact,cue.n.04
+706,pool_table,pool table,base,exact,pool_table.n.01
+707,popcorn,popcorn,novel,exact,popcorn.n.01 popcorn.n.02
+708,popsicle,popsicle,base,exact,ice_lolly.n.01
+709,postcard,postcard,base,exact,postcard.n.01
+710,poster,poster,base,exact,bill_poster.n.01 post_horse.n.01
+711,pot,pot,base,exact,pot.n.01 pot.n.04 pot.n.07 pot.n.09 potentiometer.n.02 toilet.n.02
+712,potato,potato,base,exact,potato.n.01 potato.n.02
+713,potholder,potholder,base,exact,potholder.n.01
+714,potted_plant,potted plant,novel,head,plant.n.01 plant.n.02 plant.n.03
+715,pouch,pouch,base,exact,pouch.n.01 pouch.n.02 pouch.n.03
+716,poultry,poultry,novel,exact,domestic_fowl.n.01 poultry.n.02
+717,power_bank,power bank,novel,head,bank.n.01 bank.n.03 bank.n.07 bank.n.09 savings_bank.n.02
+718,power_saw,power saw,novel,exact,power_saw.n.01
+719,praying_mantis,praying mantis,novel,exact,praying_mantis.n.01
+720,pressure_cooker,pressure cooker,novel,exact,pressure_cooker.n.01
+721,printer,printer,base,exact,printer.n.01 printer.n.02 printer.n.03
+722,projector,projector,base,exact,projector.n.01 projector.n.02
+723,propeller,propeller,base,exact,propeller.n.01
+724,protective_suit,protective suit,novel,head,suit.n.01 suit.n.03 suit.n.06
+725,protractor,protractor,novel,exact,protractor.n.01
+726,prune,prune,base,exact,prune.n.01
+727,pudding,pudding,base,exact,pudding.n.01 pudding.n.02 pudding.n.03
+728,puffer_(fish),puffer,base,exact,blowfish.n.01 puffer.n.02
+729,puffin,puffin,base,exact,puffin.n.01
+730,pug-dog,pug-dog,base,exact,pug.n.01
+731,pumpkin,pumpkin,base,exact,pumpkin.n.01 pumpkin.n.02
+732,puncher,puncher,base,exact,cowboy.n.01 punch.n.03 puncher.n.02
+733,puppet,puppet,base,exact,creature.n.03 puppet.n.01 puppet.n.03
+734,puzzle,puzzle,novel,exact,puzzle.n.02
+735,quesadilla,quesadilla,base,exact,quesadilla.n.01
+736,quiche,quiche,base,exact,quiche.n.01 quiche.n.02
+737,quilt,quilt,base,exact,quilt.n.01
+738,quince,quince,novel,exact,quince.n.01 quince.n.02
+739,rabbit,rabbit,base,exact,lapin.n.01 rabbit.n.01 rabbit.n.03
+740,raccoon,raccoon,novel,exact,raccoon.n.01 raccoon.n.02
+741,race_car,race car,base,exact,racer.n.02
+742,radar,radar,base,exact,radar.n.01
+743,radiator,radiator,base,exact,radiator.n.01 radiator.n.02 radiator.n.03
+744,radio_receiver,radio receiver,base,exact,radio_receiver.n.01
+745,raft,raft,novel,exact,raft.n.01
+746,rag_doll,rag doll,novel,exact,rag_doll.n.01
+747,raincoat,raincoat,novel,exact,raincoat.n.01
+748,raisins,raisins,novel,exact,raisin.n.01
+749,ramen,ramen,novel,unresolved,
+750,rat,rat,novel,exact,informer.n.01 rat.n.01 rat.n.05 rotter.n.01 scab.n.01
+751,razor,razor,novel,exact,razor.n.01
+752,razorblade,razorblade,novel,exact,razorblade.n.01
+753,rearview_mirror,rearview mirror,novel,exact,rearview_mirror.n.01
+754,red_panda,red panda,novel,exact,lesser_panda.n.01
+755,reflector,reflector,novel,exact,reflecting_telescope.n.01 reflector.n.01
+756,refrigerator,refrigerator,base,exact,refrigerator.n.01
+757,relay_baton,relay baton,novel,head,baton.n.01 baton.n.03 baton.n.04 baton.n.05 truncheon.n.01
+758,remote_control,remote control,novel,exact,remote_control.n.01
+759,remote_control_car,remote control car,novel,head,cable_car.n.01 car.n.01 car.n.02 car.n.03 car.n.04
+760,rhinoceros,rhinoceros,novel,exact,rhinoceros.n.01
+761,rice_cooker,rice cooker,novel,head,cooker.n.01
+762,rickshaw,rickshaw,novel,exact,jinrikisha.n.01
+763,rifle,rifle,novel,exact,rifle.n.01
+764,ring,ring,novel,exact,band.n.12 closed_chain.n.01 hoop.n.02 ring.n.07 ring.n.08
+765,road_map,road map,novel,exact,road_map.n.02
+766,roast_duck,roast duck,novel,head,duck.n.01 duck.n.03 duck.n.04
+767,robe,robe,novel,exact,gown.n.05 robe.n.01
+768,roller_skate,roller skate,novel,exact,roller_skate.n.01
+769,rollerblade,rollerblade,novel,exact,rollerblade.n.01
+770,rolling_pin,rolling pin,novel,exact,rolling_pin.n.01
+771,rowboat,rowboat,novel,exact,dinghy.n.01
+772,ruler,ruler,novel,exact,rule.n.12 ruler.n.01
+773,runner_(carpet),runner,novel,exact,ball_carrier.n.01 base_runner.n.01 runner.n.02 runner.n.03 runner.n.06 runner.n.08 runner.n.09 runner.n.10 smuggler.n.01 stolon.n.01
+774,safety_hammer,safety hammer,novel,head,hammer.n.01 hammer.n.02 hammer.n.05 hammer.n.06 hammer.n.07 mallet.n.02 malleus.n.01
+775,safety_pin,safety pin,novel,exact,safety_pin.n.01
+776,sail,sail,novel,exact,sail.n.01 sail.n.03
+777,sailboat,sailboat,novel,exact,sailboat.n.01
+778,salad_plate,salad plate,novel,exact,salad_plate.n.01
+779,salmon_(food),salmon,novel,exact,salmon.n.01 salmon.n.02 salmon.n.03
+780,sandal_(type_of_shoe),sandal,novel,exact,sandal.n.01
+781,sandbag,sandbag,novel,exact,sandbag.n.01
+782,sandpaper,sandpaper,novel,exact,emery_paper.n.01
+783,sandwich,sandwich,novel,exact,sandwich.n.01
+784,sardine,sardine,novel,exact,pilchard.n.02 sard.n.01 sardine.n.01 sardine.n.02
+785,satchel,satchel,novel,exact,satchel.n.01
+786,saucepan,saucepan,novel,exact,saucepan.n.01
+787,sausage,sausage,novel,exact,blimp.n.02 sausage.n.01
+788,saxophone,saxophone,novel,exact,sax.n.02
+789,scallops,scallops,novel,exact,scallop.n.02 scallop.n.04
+790,scanner,scanner,novel,exact,scanner.n.01 scanner.n.02 scanner.n.03 scanner.n.04
+791,scarecrow,scarecrow,novel,exact,scarecrow.n.01
+792,scarf,scarf,novel,exact,scarf.n.01 scarf_joint.n.01
+793,school_bus,school bus,novel,exact,school_bus.n.01
+794,scissors,scissors,novel,exact,scissors.n.01
+795,scoreboard,scoreboard,novel,exact,scoreboard.n.01
+796,scorpions,scorpions,novel,exact,scorpio.n.01 scorpio.n.03 scorpion.n.03
+797,screw,screw,novel,exact,fuck.n.01 prison_guard.n.01 screw.n.02 screw.n.03 screw.n.04
+798,screwdriver,screwdriver,novel,exact,screwdriver.n.01 screwdriver.n.02
+799,scrubbing_brush,scrubbing brush,novel,exact,scrub_brush.n.01
+800,sculpture,sculpture,novel,exact,sculpture.n.01
+801,sd_card,sd card,novel,head,card.n.01 card.n.04 circuit_board.n.01 wag.n.01
+802,seagull,seagull,novel,exact,gull.n.02
+803,seahorse,seahorse,novel,exact,seahorse.n.02 walrus.n.01
+804,seal,seal,novel,exact,navy_seal.n.01 seal.n.02 seal.n.03 seal.n.07 seal.n.08 seal.n.09 sealing_wax.n.01
+805,seaplane,seaplane,novel,exact,seaplane.n.01
+806,seashell,seashell,novel,exact,seashell.n.01
+807,seaweed,seaweed,novel,exact,seaweed.n.01
+808,sedan,sedan,novel,exact,sedan.n.01 sedan.n.02
+809,selfie_stick,selfie stick,novel,head,joint.n.06 pin.n.05 stick.n.01 stick.n.02 stick.n.03 stick.n.04 stick.n.06 stick.n.07
+810,sewing_machine,sewing machine,novel,exact,sewing_machine.n.01
+811,shampoo,shampoo,novel,exact,shampoo.n.01
+812,shark,shark,novel,exact,shark.n.01 shark.n.02 shark.n.03
+813,sharpie,sharpie,novel,exact,cardsharp.n.01 eager_beaver.n.01 sharpie.n.03 sharpie.n.04
+814,shaver_(electric),shaver,novel,exact,child.n.01 shaver.n.01 shaver.n.03
+815,shears,shears,novel,exact,shear.n.02 shears.n.01
+816,sheep,sheep,novel,exact,sheep.n.01 sheep.n.02 sheep.n.03
+817,shelf,shelf,novel,exact,ledge.n.01 shelf.n.01
+818,shepherd_dog,shepherd dog,novel,exact,shepherd_dog.n.01
+819,shield,shield,novel,exact,carapace.n.01 shield.n.01 shield.n.02
+820,shirt,shirt,novel,exact,shirt.n.01
+821,shoe,shoe,novel,exact,brake_shoe.n.01 horseshoe.n.02 shoe.n.01 shoe.n.02
+822,shoehorn,shoehorn,novel,exact,shoehorn.n.01
+823,shoeshine,shoeshine,novel,exact,shoeshine.n.01 shoeshine.n.02
+824,short_pants,short pants,novel,exact,short_pants.n.01
+825,shot_glass,shot glass,novel,exact,shot_glass.n.01
+826,shot_put,shot put,novel,exact,shot_put.n.01
+827,shovel,shovel,novel,exact,power_shovel.n.01 shovel.n.01 shovel.n.03
+828,shower_cap,shower cap,novel,exact,shower_cap.n.01
+829,shower_curtain,shower curtain,novel,exact,shower_curtain.n.01
+830,shower_head,shower head,novel,exact,showerhead.n.01
+831,shredder_(for_paper),shredder,novel,exact,shredder.n.01
+832,shrimp,shrimp,novel,exact,prawn.n.01 runt.n.01 shrimp.n.03
+833,side_table,side table,novel,head,board.n.04 mesa.n.01 table.n.02 table.n.03
+834,signboard,signboard,novel,exact,signboard.n.01
+835,sink,sink,novel,exact,cesspool.n.01 sink.n.01 sink.n.02 sinkhole.n.01
+836,skateboard,skateboard,novel,exact,skateboard.n.01
+837,ski,ski,novel,exact,ski.n.01
+838,ski_parka,ski parka,novel,exact,ski_parka.n.01
+839,ski_pole,ski pole,novel,exact,ski_pole.n.01
+840,skirt,skirt,novel,exact,annulus.n.02 dame.n.01 skirt.n.01 skirt.n.02
+841,skunk,skunk,novel,exact,pot.n.09 rotter.n.01 skunk.n.04
+842,slide,slide,base,exact,chute.n.02 slide.n.01 slide.n.04 slide.n.06
+843,slipper_(footwear),slipper,novel,exact,skidder.n.01 slipper.n.01
+844,smartwatch,smartwatch,novel,unresolved,
+845,smoothie,smoothie,novel,exact,smoothie.n.01 smoothie.n.02
+846,snake,snake,novel,exact,hydra.n.02 snake.n.01 snake.n.02 snake.n.03 snake.n.05
+847,snow_leopard,snow leopard,novel,exact,snow_leopard.n.01
+848,snowboard,snowboard,novel,exact,snowboard.n.01
+849,snowman,snowman,novel,exact,snowman.n.01
+850,soccer_ball,soccer ball,novel,exact,soccer_ball.n.01
+851,sock,sock,novel,exact,sock.n.01
+852,socket,socket,novel,exact,socket.n.01 socket.n.02 socket.n.03
+853,sofa_bed,sofa bed,base,exact,convertible.n.03
+854,sombrero,sombrero,novel,exact,sombrero.n.01 sombrero.n.02
+855,soundbar,soundbar,novel,unresolved,
+856,soya_milk,soya milk,novel,exact,soya_milk.n.01
+857,space_shuttle,space shuttle,novel,exact,space_shuttle.n.01
+858,sparrow,sparrow,novel,exact,hedge_sparrow.n.01 sparrow.n.01
+859,spatula,spatula,novel,exact,spatula.n.01 spatula.n.02
+860,speaker_(stero_equipment),speaker,novel,exact,loudspeaker.n.01 speaker.n.01 speaker.n.03
+861,spear,spear,novel,exact,spear.n.01 spear.n.02
+862,spectacles,spectacles,novel,exact,spectacle.n.02 spectacles.n.01
+863,speed_bump,speed bump,novel,exact,speed_bump.n.01
+864,sphygmomanometer,sphygmomanometer,novel,exact,sphygmomanometer.n.01
+865,spider,spider,novel,exact,spider.n.01 spider.n.03
+866,spinach,spinach,novel,exact,spinach.n.01 spinach.n.02
+867,sponge,sponge,novel,exact,leech.n.02 quick_study.n.01 sponge.n.01 sponge.n.04
+868,spoon,spoon,novel,exact,spoon.n.01 spoon.n.03
+869,sportswear,sportswear,novel,exact,sportswear.n.01
+870,spotlight,spotlight,novel,exact,spotlight.n.02
+871,spring_rolls,spring rolls,novel,exact,egg_roll.n.01
+872,squash,squash,novel,exact,squash.n.01 squash.n.02
+873,squid_(food),squid,novel,exact,squid.n.01 squid.n.02
+874,squirrel,squirrel,novel,exact,squirrel.n.01 squirrel.n.02
+875,stapler_(stapling_machine),stapler,novel,exact,stapler.n.01
+876,starfruit,starfruit,novel,unresolved,
+877,starting_blocks,starting blocks,novel,exact,starting_block.n.01
+878,steak_(food),steak,novel,exact,steak.n.01
+879,steak_knife,steak knife,novel,exact,steak_knife.n.01
+880,steamroller,steamroller,novel,exact,juggernaut.n.01 steamroller.n.02
+881,steel_drum,steel drum,novel,exact,steel_drum.n.01
+882,steering_wheel,steering wheel,novel,exact,steering_wheel.n.01
+883,stepladder,stepladder,novel,exact,step_ladder.n.01
+884,stethoscope,stethoscope,novel,exact,stethoscope.n.01
+885,sticker,sticker,novel,exact,dagger.n.01 spine.n.03
+886,stirring_rod,stirring rod,novel,head,gat.n.01 rod.n.01 rod.n.02 rod.n.05
+887,stool,stool,novel,exact,fecal_matter.n.01 stool.n.01 stool.n.03 toilet.n.02
+888,strap,strap,novel,exact,strap.n.01 strap.n.02 strap.n.03 strap.n.04
+889,straw_(for_drinking),straw,novel,exact,chaff.n.01 straw.n.01 straw.n.04
+890,strawberry,strawberry,novel,exact,strawberry.n.01 strawberry.n.02
+891,street_sign,street sign,novel,exact,street_sign.n.01
+892,streetlight,streetlight,novel,exact,streetlight.n.01
+893,stuffed_animal,stuffed animal,novel,head,animal.n.01
+894,subway,subway,novel,exact,underpass.n.01
+895,subwoofer,subwoofer,novel,exact,subwoofer.n.01
+896,sugarcane_(plant),sugarcane,novel,exact,sugarcane.n.01 sugarcane.n.02
+897,suit_(clothing),suit,novel,exact,suit.n.01 suit.n.03 suit.n.06
+898,suitcase,suitcase,base,exact,bag.n.06
+899,sunflower,sunflower,novel,exact,sunflower.n.01
+900,sunglasses,sunglasses,novel,exact,sunglass.n.01 sunglasses.n.01
+901,surfboard,surfboard,novel,exact,surfboard.n.01
+902,sushi,sushi,novel,exact,sushi.n.01
+903,swallow,swallow,novel,exact,swallow.n.02 swallow.n.03
+904,swan,swan,novel,exact,swan.n.01
+905,sweater,sweater,novel,exact,perspirer.n.01 sweater.n.01
+906,sweatshirt,sweatshirt,novel,exact,sweatshirt.n.01
+907,sweet_potato,sweet potato,novel,exact,ocarina.n.01 sweet_potato.n.01 sweet_potato.n.02
+908,swim_cap,swim cap,novel,head,cap.n.01 cap.n.02 cap.n.04 cap.n.05 capital.n.08 crown.n.11 detonator.n.01 hood.n.02
+909,swim_ring,swim ring,novel,head,band.n.12 closed_chain.n.01 hoop.n.02 ring.n.07 ring.n.08
+910,swimming_goggles,swimming goggles,novel,head,goggles.n.01
+911,swimsuit,swimsuit,novel,exact,swimsuit.n.01
+912,swing,swing,novel,exact,swing.n.02
+913,sword,sword,novel,exact,sword.n.01
+914,synthesizer,synthesizer,novel,exact,synthesist.n.01 synthesizer.n.02
+915,syringe,syringe,novel,exact,syringe.n.01
+916,table,table,novel,exact,board.n.04 mesa.n.01 table.n.02 table.n.03
+917,table_lamp,table lamp,novel,exact,table_lamp.n.01
+918,table-tennis_table,table-tennis table,novel,exact,table-tennis_table.n.01
+919,tablecloth,tablecloth,novel,exact,tablecloth.n.01
+920,tachometer,tachometer,novel,exact,tachometer.n.01
+921,tag,tag,novel,exact,rag.n.01
+922,taillight,taillight,novel,exact,taillight.n.01
+923,tambourine,tambourine,novel,exact,tambourine.n.01
+924,tangerine,tangerine,novel,exact,tangerine.n.01 tangerine.n.02
+925,tank_top_(clothing),tank top,novel,exact,tank_top.n.01
+926,tape_(sticky_cloth_or_paper),tape,novel,exact,magnetic_tape.n.01 tape.n.01 tape.n.02 tape.n.03 tape.n.04
+927,tape_measure,tape measure,novel,exact,tape.n.04
+928,tapestry,tapestry,novel,exact,tapestry.n.02 tapestry.n.03
+929,target,target,novel,exact,prey.n.01 target.n.03 target.n.04
+930,tarp,tarp,novel,exact,tarpaulin.n.01
+931,tassel,tassel,novel,exact,tassel.n.01
+932,tea_bag,tea bag,novel,exact,tea_bag.n.01 tea_bag.n.02
+933,teakettle,teakettle,novel,exact,teakettle.n.01
+934,teapot,teapot,novel,exact,teapot.n.01
+935,teddy_bear,teddy bear,novel,exact,teddy.n.01
+936,telephone,telephone,novel,exact,telephone.n.01 telephone.n.02
+937,telephone_pole,telephone pole,novel,exact,telephone_pole.n.01
+938,telephoto_lens,telephoto lens,novel,exact,telephoto_lens.n.01
+939,tennis_ball,tennis ball,novel,exact,tennis_ball.n.01
+940,tennis_racket,tennis racket,novel,exact,tennis_racket.n.01
+941,tent,tent,novel,exact,tent.n.01 tent.n.02
+942,termites,termites,novel,exact,termite.n.01
+943,test_tube,test tube,novel,exact,test_tube.n.01
+944,test_tube_holder,test tube holder,novel,head,holder.n.01 holder.n.02 holder.n.03
+945,thermometer,thermometer,novel,exact,thermometer.n.01
+946,thermostat,thermostat,novel,exact,thermostat.n.01
+947,thimble,thimble,novel,exact,thimble.n.02
+948,tiger,tiger,novel,exact,tiger.n.01 tiger.n.02
+949,tights_(clothing),tights,novel,exact,tights.n.01
+950,timer,timer,novel,exact,timekeeper.n.01 timer.n.01 timer.n.03
+951,tissue_paper,tissue paper,novel,exact,tissue.n.02
+952,toaster,toaster,novel,exact,toaster.n.01 toaster.n.02
+953,tobacco_pipe,tobacco pipe,base,exact,pipe.n.01
+954,toilet,toilet,novel,exact,toilet.n.01 toilet.n.02
+955,toilet_tissue,toilet tissue,novel,exact,toilet_tissue.n.01
+956,tongs,tongs,novel,exact,tongs.n.01
+957,toolbox,toolbox,novel,exact,toolbox.n.01
+958,toothbrush,toothbrush,novel,exact,soup-strainer.n.01 toothbrush.n.01
+959,toothpaste,toothpaste,novel,exact,toothpaste.n.01
+960,toothpick,toothpick,novel,exact,toothpick.n.01
+961,towel,towel,novel,exact,towel.n.01
+962,towel_rack,towel rack,novel,exact,towel_rack.n.01
+963,toy,toy,novel,exact,miniature.n.02 plaything.n.01 toy.n.02 toy.n.03 toy_dog.n.01
+964,tractor_(farm_equipment),tractor,novel,exact,tractor.n.01 tractor.n.02
+965,traffic_light,traffic light,novel,exact,traffic_light.n.01
+966,train,train,novel,exact,gearing.n.01 train.n.01 train.n.05
+967,trampoline,trampoline,novel,exact,trampoline.n.01
+968,trash_can,trash can,base,exact,ashcan.n.01
+969,travel_pillow,travel pillow,novel,head,pillow.n.01
+970,tray,tray,novel,exact,tray.n.01
+971,trench_coat,trench coat,novel,exact,trench_coat.n.01
+972,triangle_(musical_instrument),triangle,novel,exact,triangle.n.04 triangle.n.05 triangulum.n.01
+973,tricycle,tricycle,novel,exact,tricycle.n.01
+974,tripod,tripod,novel,exact,tripod.n.01
+975,trombone,trombone,novel,exact,trombone.n.01
+976,trousers,trousers,novel,exact,trouser.n.01 trouser.n.02
+977,trowel,trowel,novel,exact,trowel.n.01
+978,truck,truck,novel,exact,hand_truck.n.01 truck.n.01
+979,trumpet,trumpet,novel,exact,cornet.n.01
+980,tuba,tuba,novel,exact,bass_horn.n.01
+981,tuna,tuna,novel,exact,tuna.n.01 tuna.n.02 tuna.n.03 tuna.n.04
+982,turnip,turnip,novel,exact,turnip.n.01 turnip.n.02
+983,turtle,turtle,novel,exact,turtle.n.02 turtleneck.n.01
+984,tv,tv,novel,exact,television.n.01 television_receiver.n.01
+985,tweezers,tweezers,novel,exact,pincer.n.01
+986,typewriter,typewriter,novel,exact,typewriter.n.01
+987,umbrella,umbrella,novel,exact,umbrella.n.01
+988,unicycle,unicycle,novel,exact,unicycle.n.01
+989,urinal,urinal,novel,exact,urinal.n.01
+990,vacuum_cleaner,vacuum cleaner,novel,exact,vacuum.n.04
+991,vase,vase,novel,exact,vase.n.01
+992,vent,vent,novel,exact,vent.n.01 vent.n.02 vent.n.03 vent.n.04
+993,vest,vest,novel,exact,singlet.n.01 vest.n.01
+994,vinegar,vinegar,novel,exact,vinegar.n.01 vinegar.n.02
+995,viola,viola,novel,exact,viola.n.01 viola.n.03
+996,violin,violin,novel,exact,violin.n.01
+997,virtual_reality_headset,virtual reality headset,novel,head,headset.n.01
+998,visor,visor,base,exact,bill.n.09 visor.n.01
+999,vodka,vodka,novel,exact,vodka.n.01
+1000,volleyball,volleyball,novel,exact,volleyball.n.02
+1001,vulture,vulture,novel,exact,marauder.n.01 vulture.n.01
+1002,waffle,waffle,novel,exact,waffle.n.01
+1003,waist_pack,waist pack,novel,exact,waist_pack.n.01
+1004,walkman,walkman,novel,exact,walkman.n.01
+1005,wall_socket,wall socket,novel,exact,wall_socket.n.01
+1006,wallet,wallet,novel,exact,wallet.n.01
+1007,walnut,walnut,novel,exact,walnut.n.01 walnut.n.02 walnut.n.03
+1008,walrus,walrus,novel,exact,walrus.n.01
+1009,warthog,warthog,novel,exact,warthog.n.01
+1010,washbasin,washbasin,novel,exact,washbasin.n.01 washbasin.n.02
+1011,wasp,wasp,novel,exact,wasp.n.01 wasp.n.02
+1012,watch,watch,novel,exact,lookout.n.01 watch.n.01
+1013,water_bottle,water bottle,novel,exact,water_bottle.n.01
+1014,water_gun,water gun,novel,exact,water_pistol.n.01
+1015,water_heater,water heater,novel,exact,water_heater.n.01
+1016,water_jug,water jug,novel,exact,water_jug.n.01
+1017,water_ski,water ski,novel,exact,water_ski.n.01
+1018,water_temperature_gauge,water temperature gauge,novel,head,gauge.n.01
+1019,watercraft,watercraft,novel,exact,vessel.n.02
+1020,watering_can,watering can,novel,exact,watering_can.n.01
+1021,watermelon,watermelon,novel,exact,watermelon.n.01 watermelon.n.02
+1022,weightlifting_belt,weightlifting belt,novel,head,belt.n.02 belt.n.03 belt.n.06 swath.n.02
+1023,welding_torch,welding torch,novel,head,blowtorch.n.01 common_mullein.n.01 flashlight.n.01 torch.n.01
+1024,wet_suit,wet suit,novel,exact,wet_suit.n.01
+1025,whale,whale,novel,exact,giant.n.04 whale.n.02
+1026,wheel,wheel,novel,exact,bicycle.n.01 rack.n.04 roulette_wheel.n.01 steering_wheel.n.01 wheel.n.01 wheel.n.04
+1027,wheelchair,wheelchair,novel,exact,wheelchair.n.01
+1028,whipped_cream,whipped cream,novel,exact,whipped_cream.n.01
+1029,whistle,whistle,novel,exact,pennywhistle.n.01 whistle.n.03 whistle.n.04
+1030,white_sugar,white sugar,novel,head,carbohydrate.n.01 sugar.n.01
+1031,whiteboard,whiteboard,novel,unresolved,
+1032,wig,wig,novel,exact,wig.n.01
+1033,windmill,windmill,novel,exact,windmill.n.01 windmill.n.02
+1034,windshield_wiper,windshield wiper,novel,exact,windshield_wiper.n.01
+1035,wine_bottle,wine bottle,novel,exact,wine_bottle.n.01
+1036,wine_bucket,wine bucket,novel,exact,wine_bucket.n.01
+1037,wineglass,wineglass,novel,exact,wineglass.n.01
+1038,wireless_chargers,wireless chargers,novel,head,charger.n.01 charger.n.02
+1039,wok,wok,novel,exact,wok.n.01
+1040,wolf,wolf,novel,exact,beast.n.02 wolf.n.01 wolf.n.02 wolf.n.03 wolf.n.04
+1041,wood_plane,wood plane,novel,head,airplane.n.01 plane.n.04 plane.n.05
+1042,wooden_spoon,wooden spoon,novel,exact,wooden_spoon.n.02
+1043,woodpecker,woodpecker,novel,exact,woodpecker.n.01
+1044,wrench,wrench,novel,exact,wrench.n.03
+1045,wristband,wristband,novel,exact,watchband.n.01 wristband.n.01
+1046,wristlet,wristlet,novel,exact,wristlet.n.01
+1047,writing_brush,writing brush,novel,head,brush.n.02 brush.n.04 brush.n.05
+1048,xylophone,xylophone,novel,exact,marimba.n.01
+1049,xylophone_mallets,xylophone mallets,novel,head,mallet.n.01 mallet.n.02 mallet.n.03
+1050,yo-yo,yo-yo,novel,exact,yo-yo.n.01
+1051,yoga_mat,yoga mat,novel,head,mat.n.01 mat.n.02 mat.n.03 mat.n.04 mat.n.07
+1052,zebra,zebra,novel,exact,zebra.n.01
+1053,zucchini,zucchini,novel,exact,zucchini.n.01 zucchini.n.02
