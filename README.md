@@ -1,43 +1,157 @@
-# Towards Reliable Text-Based Video Search: Evaluating Open-Vocabulary Detectors and VLM Verification
+<div align="center">
 
-Code, frozen test sets and results for the paper above (preprint in preparation).
+# Towards Reliable Text-Based Video Search
 
-**Authors:** Aman Hanspal, Dr. Gargi Phadke
+### Evaluating Open-Vocabulary Detectors and VLM Verification
 
-## What this study asks
+**Aman Hanspal** &nbsp;·&nbsp; **Dr. Gargi Phadke**
 
-Can open-vocabulary object detectors act as trustworthy video search engines on a
-low-memory GPU (4 GB)? A search engine has to:
+<sub>Code, frozen test sets and results for the paper (preprint in preparation)</sub>
+
+<br>
+
+<img src="https://img.shields.io/badge/detector-YOLO--World%20v2-1f3a5f" alt="detector">
+<img src="https://img.shields.io/badge/verifier-Qwen3--VL%202B-1f3a5f" alt="verifier">
+<img src="https://img.shields.io/badge/dataset-OVT--B%20(1%2C972%20videos)-1f3a5f" alt="dataset">
+<img src="https://img.shields.io/badge/GPU-RTX%203050%20Laptop%204%20GB-1f3a5f" alt="gpu">
+<img src="https://img.shields.io/badge/license-AGPL--3.0-555555" alt="license">
+
+<br><br>
+
+[**Overview**](#overview) &nbsp;·&nbsp; [**Results**](#main-results) &nbsp;·&nbsp; [**Figures**](#figures) &nbsp;·&nbsp; [**Repository**](#repository-layout) &nbsp;·&nbsp; [**Reproduce**](#reproducing) &nbsp;·&nbsp; [**Citation**](#citation)
+
+</div>
+
+<br>
+
+<table>
+<tr><td align="center">
+<img src="paper_figures/fig1_pipeline.png" width="900" alt="Fig. 1: overview of the pipeline">
+<br>
+<sub><b>Fig. 1</b> &nbsp;Each video is searched one word at a time. Detections are scored against the labels with present,
+unrelated and lookalike words; the proposed check crops the strongest box of each fired word and asks a small VLM a
+yes/no question, keeping only "yes" answers.</sub>
+</td></tr>
+</table>
+
+## Overview
+
+Can open-vocabulary object detectors act as trustworthy video search engines on a low-memory GPU (4 GB)?
+A search engine has to:
 
 1. **find** objects that are in a video, and
 2. **stay silent** about objects that are not.
 
-We measure both, using present, easy-absent (unrelated) and hard-absent (lookalike)
-text queries, and test whether a vision-language model (VLM) can verify detections
-and remove lookalike false alarms.
+We measure both, using present, easy-absent (unrelated) and hard-absent (lookalike) text queries, and test whether
+a vision-language model (VLM) can verify detections and remove lookalike false alarms.
 
-- **Detector:** YOLO-World v2 (small / medium / large), via Ultralytics
-- **Dataset:** OVT-B (1,972 of 1,973 videos; see `DATA.md`)
-- **Verifier:** Qwen3-VL 2B instruct (`qwen3-vl:2b-instruct`), run locally through Ollama
-- **Hardware:** RTX 3050 Laptop GPU, 4 GB VRAM (power-limited to 30 W in every run)
+| Component | Used in this study |
+|---|---|
+| Detector | YOLO-World v2 (small / medium / large), via Ultralytics, FP16 |
+| Dataset | OVT-B: 1,972 of 1,973 videos, 1,053 categories (see `DATA.md`) |
+| Search words | 7,808 present, 3,944 unrelated, 3,944 lookalike (frozen before any detector run) |
+| Verifier | Qwen3-VL 2B instruct (`qwen3-vl:2b-instruct`), run locally through Ollama |
+| Hardware | RTX 3050 Laptop GPU, 4 GB VRAM, power-limited to 30 W in every run |
 
 ## Main results
 
-Medium model, 640 px, score threshold 0.25, one search word at a time (full table: `paper_figures/table1_main.md`):
+Medium model, 640 px, score threshold 0.25, one search word at a time:
 
 | Measure | Value |
-|---|---|
-| Present objects found somewhere in the video | 50.7% |
-| False alarms for **unrelated** words (e.g. "violin" in a farm video) | 1.1% |
-| False alarms for **lookalike** words (e.g. "duck" in a penguin video) | 23.9% |
-| Lookalike false alarms that sit on a real object of another kind | 93-95% in all six settings |
-| Lookalike false alarms hidden when all words are asked at once | 8.4 points (about a third) |
-| Lookalike false alarms after the VLM check | 8.1% (a stricter threshold with the same loss of real detections: 18.7%) |
-| Real detections the VLM wrongly rejects | 10.2% (clear VLM mistakes: 1.2%) |
+|---|:---:|
+| Present objects found somewhere in the video | **50.7%** |
+| False alarms for **unrelated** words (e.g. "violin" in a farm video) | **1.1%** |
+| False alarms for **lookalike** words (e.g. "duck" in a penguin video) | **23.9%** |
+| Lookalike false alarms that sit on a real object of another kind | **93–95%** (all six settings) |
+| Lookalike false alarms hidden when all words are asked at once | **8.4 points** (about a third) |
+| Lookalike false alarms after the VLM check | **8.1%** (stricter threshold, same loss: 18.7%) |
+| Real detections the VLM wrongly rejects | **10.2%** (clear VLM mistakes: 1.2%) |
 
-A larger model, a stricter threshold, 480 px input or processing only every 10th frame do not remove lookalike
-false alarms. The VLM check brings them to 8-9% in all six detector settings. Every number in the paper is
-recomputed from the files in this repository by `scripts/make_figures.py` (see `paper_figures/check.md`).
+> [!NOTE]
+> A larger model, a stricter threshold, 480 px input or processing only every 10th frame do **not** remove lookalike
+> false alarms. The VLM check brings them to 8–9% in **all six** detector settings. Every number here is recomputed
+> from the files in this repository by `scripts/make_figures.py` (see `paper_figures/check.md`).
+
+### Table 1 &nbsp;·&nbsp; All six single-word settings
+
+<sub>Threshold 0.25, FP16. FA = false alarms (% of absent words that fire). "On real object" = share of lookalike false
+alarms whose box sits on a labelled object of another kind. Source: <code>paper_figures/table1_main.csv</code>.</sub>
+
+| Setting | ms / frame / word | Found in video | Frame hit | Unrelated FA | Lookalike FA | Strict lookalike FA | On real object | Lookalike FA after VLM |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Small 640 | 25.1 | 53.3 | 39.1 | 2.5 | 28.9 | 33.8 | 94.7 | 9.1 |
+| Small 480 | 25.3 | 52.0 | 38.5 | 2.6 | 27.1 | 31.9 | 94.2 | 8.7 |
+| **Medium 640** | **34.1** | **50.7** | **38.5** | **1.1** | **23.9** | **31.0** | **94.3** | **8.1** |
+| Medium 480 | 32.4 | 50.5 | 38.8 | 1.2 | 24.0 | 30.4 | 94.2 | 8.3 |
+| Large 640 | 48.2 | 52.2 | 40.5 | 1.1 | 24.6 | 31.6 | 92.8 | 9.0 |
+| Large 480 | 40.6 | 51.9 | 40.5 | 1.2 | 23.2 | 30.1 | 94.3 | 8.3 |
+
+## Figures
+
+<sub>All figures are generated from the raw result files by <code>scripts/make_figures.py</code>; PNG and PDF versions
+are in <code>paper_figures/</code>.</sub>
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<img src="paper_figures/fig2_main.png" width="100%" alt="Fig. 2: main result">
+<br>
+<sub><b>Fig. 2</b> &nbsp;Main result. Unrelated words almost never fire; lookalike words fire for about a quarter of
+videos, for every model size.</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<img src="paper_figures/fig3_joint.png" width="100%" alt="Fig. 3: joint vs separate">
+<br>
+<sub><b>Fig. 3</b> &nbsp;Asking all words at once hides about a third of lookalike false alarms (paired difference,
+95% interval).</sub>
+</td>
+</tr>
+</table>
+
+<table>
+<tr><td align="center">
+<img src="paper_figures/fig4_speed.png" width="850" alt="Fig. 4: speed vs accuracy">
+<br>
+<sub><b>Fig. 4</b> &nbsp;Speed against lookalike false alarms (left) and objects found (right). Cheaper settings change
+speed but do not reduce lookalike false alarms.</sub>
+</td></tr>
+</table>
+
+<table>
+<tr><td align="center">
+<img src="paper_figures/fig5_frames.png" width="850" alt="Fig. 5: frame-rate cuts">
+<br>
+<sub><b>Fig. 5</b> &nbsp;Keeping every k-th frame. Objects found and lookalike false alarms fall together: frame skipping
+is a speed lever, not a fix for lookalikes.</sub>
+</td></tr>
+</table>
+
+<table>
+<tr><td align="center">
+<img src="paper_figures/fig6_vlm.png" width="850" alt="Fig. 6: VLM check">
+<br>
+<sub><b>Fig. 6</b> &nbsp;Lookalike false alarms without a check, with a stricter detector threshold that loses the same
+share of real detections, and with the VLM check, for all six settings.</sub>
+</td></tr>
+</table>
+
+<table>
+<tr><td align="center">
+<img src="paper_figures/fig7_reasons.png" width="650" alt="Fig. 7: rejection reasons">
+<br>
+<sub><b>Fig. 7</b> &nbsp;Why the check rejected real detections (medium 640, all 61 rejections, hand-checked).</sub>
+</td></tr>
+</table>
+
+<table>
+<tr><td align="center">
+<img src="paper_figures/fig8_examples.png" width="850" alt="Fig. 8: examples">
+<br>
+<sub><b>Fig. 8</b> &nbsp;Examples (yellow = detector box): "manatee" on a fur seal, rejected by the check; "beachball" on a
+balloon, accepted; a real "person" holding a bottle, rejected because the box shows mainly a hand; a real polar bear,
+accepted.</sub>
+</td></tr>
+</table>
 
 ## Repository layout
 
@@ -117,7 +231,7 @@ The study grew out of VisionQuery, a project built in Dr. Arjun Jain's AI Master
 ```bibtex
 @misc{hanspal2026towards,
   title  = {Towards Reliable Text-Based Video Search: Evaluating Open-Vocabulary Detectors and VLM Verification},
-  author = {Hanspal, Aman and Phadke, Dr. Gargi},
+  author = {Hanspal, Aman and Phadke, Gargi},
   year   = {2026},
   note   = {Preprint, in preparation}
 }
