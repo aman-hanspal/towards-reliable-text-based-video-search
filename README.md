@@ -10,11 +10,11 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/detector-YOLO--World%20v2-1f3a5f" alt="detector">
-<img src="https://img.shields.io/badge/verifier-Qwen3--VL%202B-1f3a5f" alt="verifier">
-<img src="https://img.shields.io/badge/dataset-OVT--B%20(1%2C972%20videos)-1f3a5f" alt="dataset">
-<img src="https://img.shields.io/badge/GPU-RTX%203050%20Laptop%204%20GB-1f3a5f" alt="gpu">
-<img src="https://img.shields.io/badge/license-AGPL--3.0-555555" alt="license">
+<a href="https://docs.ultralytics.com/models/yolo-world/"><img src="https://img.shields.io/badge/detector-YOLO--World%20v2-1f3a5f" alt="detector"></a>
+<a href="https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct"><img src="https://img.shields.io/badge/verifier-Qwen3--VL%202B-1f3a5f" alt="verifier"></a>
+<a href="https://github.com/Coo1Sea/OVT-B-Dataset"><img src="https://img.shields.io/badge/dataset-OVT--B%20(1%2C972%20videos)-1f3a5f" alt="dataset"></a>
+<a href="https://www.nvidia.com/en-in/geforce/laptops/30-series/"><img src="https://img.shields.io/badge/GPU-RTX%203050%20Laptop%204%20GB-1f3a5f" alt="gpu"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-555555" alt="license"></a>
 
 <br><br>
 
@@ -221,10 +221,14 @@ The detector runner refuses to run unless the query set matches the frozen hash 
 
 ## Acknowledgements
 
-This work builds on OVT-B and the seven datasets it is drawn from, YOLO-World,
-Ultralytics, CLIP, WordNet and Qwen3-VL. Full credits and citations are in `DATA.md`.
-The study grew out of VisionQuery, a project built in Dr. Arjun Jain's AI Masterclass
-(Cohort 1).
+This work builds on [OVT-B](https://github.com/Coo1Sea/OVT-B-Dataset) and the seven datasets it is drawn from,
+[YOLO-World](https://github.com/AILab-CVC/YOLO-World), [Ultralytics](https://github.com/ultralytics/ultralytics),
+[CLIP](https://github.com/openai/CLIP), [WordNet](https://wordnet.princeton.edu/) and
+[Qwen3-VL](https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct). Full credits and citations are in `DATA.md`.
+We thank Haiji Liang and Ruize Han for releasing OVT-B.
+
+The study grew out of [VisionQuery](https://github.com/aman-hanspal/VisionQuery), an open-source video search app built in
+[Dr. Arjun Jain](https://www.linkedin.com/in/arjunjain/)'s AI Masterclass (Cohort 1).
 
 ## Citation
 
