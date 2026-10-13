@@ -1,4 +1,4 @@
-# One Word at a Time: Lookalike False Alarms in Open-Vocabulary Video Search on a 4 GB GPU, and a Small Vision-Language Check
+# Towards Reliable Text-Based Video Search: Evaluating Open-Vocabulary Detectors and VLM Verification
 
 Code, frozen test sets and results for the paper above (preprint in preparation).
 
@@ -111,8 +111,8 @@ The study grew out of VisionQuery, a project built in Dr. Arjun Jain's AI Master
 ## Citation
 
 ```bibtex
-@misc{hanspal2026oneword,
-  title  = {One Word at a Time: Lookalike False Alarms in Open-Vocabulary Video Search on a 4 GB GPU, and a Small Vision-Language Check},
+@misc{hanspal2026towards,
+  title  = {Towards Reliable Text-Based Video Search: Evaluating Open-Vocabulary Detectors and VLM Verification},
   author = {Hanspal, Aman and Phadke, Dr. Gargi},
   year   = {2026},
   note   = {Preprint, in preparation}
