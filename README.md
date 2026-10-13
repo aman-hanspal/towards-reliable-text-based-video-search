@@ -7,10 +7,14 @@ Code, frozen test sets and results for the paper above (preprint in preparation)
 ## What this study asks
 
 Can open-vocabulary object detectors act as trustworthy video search engines on a
-low-memory GPU (4 GB)? A search engine has to (1) find objects that are in a video and
-(2) stay silent about objects that are not. We measure both, using present,
-easy-absent (unrelated) and hard-absent (lookalike) text queries, and test whether a
-vision-language model (VLM) can verify detections and remove lookalike false alarms.
+low-memory GPU (4 GB)? A search engine has to:
+
+1. **find** objects that are in a video, and
+2. **stay silent** about objects that are not.
+
+We measure both, using present, easy-absent (unrelated) and hard-absent (lookalike)
+text queries, and test whether a vision-language model (VLM) can verify detections
+and remove lookalike false alarms.
 
 - **Detector:** YOLO-World v2 (small / medium / large), via Ultralytics
 - **Dataset:** OVT-B (1,972 of 1,973 videos; see `DATA.md`)
