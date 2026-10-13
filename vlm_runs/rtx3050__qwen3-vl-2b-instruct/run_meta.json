@@ -1,0 +1,68 @@
+{
+ "model": "qwen3-vl:2b-instruct",
+ "model_digest": "ea422f1e73652a95479954d8572d3c8c6022f628ce2d38a1a04aae1b7f2d5300",
+ "question": "Is the main object in this image a {prompt}? Answer with only one word: yes or no.",
+ "options": {
+  "temperature": 0,
+  "seed": 0,
+  "num_predict": 8,
+  "num_ctx": 4096
+ },
+ "items_csv_sha256": "844a46af05aacb9a1a56969209d87b1482fa754dcaa6980dce1b596fa87f66f4",
+ "device": "rtx3050",
+ "created_utc": "2026-10-09T18:49:09.901929+00:00",
+ "ollama_version": "0.40.2",
+ "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+ "python": "3.12.14",
+ "runs": [
+  {
+   "part": "pilot",
+   "started_utc": "2026-10-09T18:49:30.974130+00:00",
+   "ollama_version": "0.40.2",
+   "think_flag": false,
+   "loaded_size_mb": 2186,
+   "loaded_on_gpu_mb": 1800,
+   "share_on_gpu": 0.823
+  },
+  {
+   "part": "main",
+   "started_utc": "2026-10-09T19:02:45.072066+00:00",
+   "ollama_version": "0.40.2",
+   "think_flag": false,
+   "loaded_size_mb": 2186,
+   "loaded_on_gpu_mb": 1754,
+   "share_on_gpu": 0.802
+  },
+  {
+   "part": "main",
+   "started_utc": "2026-10-09T19:03:22.879092+00:00",
+   "ollama_version": "0.40.2",
+   "think_flag": false,
+   "loaded_size_mb": 2186,
+   "loaded_on_gpu_mb": 1754,
+   "share_on_gpu": 0.802
+  },
+  {
+   "part": "main",
+   "started_utc": "2026-10-09T19:12:07.628045+00:00",
+   "ollama_version": "0.40.2",
+   "think_flag": false,
+   "loaded_size_mb": 2186,
+   "loaded_on_gpu_mb": 1754,
+   "share_on_gpu": 0.802
+  },
+  {
+   "part": "main",
+   "started_utc": "2026-10-10T05:12:28.234250+00:00",
+   "ollama_version": "0.40.2",
+   "think_flag": false,
+   "loaded_size_mb": 1949,
+   "loaded_on_gpu_mb": 1754,
+   "share_on_gpu": 0.9
+  }
+ ],
+ "weights_sha256": "4b22b97d9986a0cd4b1c0dcc790e078d412e7c02541b83a08f5d70ec708e96da",
+ "manifest_digests_seen": [
+  "ff304a477a01ad3771ecdabc5edbd40da7070efff96f58a553a29c30aa920c8c"
+ ]
+}

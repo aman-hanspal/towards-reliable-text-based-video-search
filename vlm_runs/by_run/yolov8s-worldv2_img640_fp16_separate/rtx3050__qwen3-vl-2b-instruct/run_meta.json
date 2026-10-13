@@ -1,0 +1,41 @@
+{
+ "model": "qwen3-vl:2b-instruct",
+ "weights_sha256": "4b22b97d9986a0cd4b1c0dcc790e078d412e7c02541b83a08f5d70ec708e96da",
+ "question": "Is the main object in this image a {prompt}? Answer with only one word: yes or no.",
+ "options": {
+  "temperature": 0,
+  "seed": 0,
+  "num_predict": 8,
+  "num_ctx": 4096
+ },
+ "items_csv_sha256": "68ea2bf2318a01053dc901116431997079f03187e4b5bd74136eca93826df44a",
+ "device": "rtx3050",
+ "created_utc": "2026-10-09T22:41:22.652373+00:00",
+ "ollama_version": "0.40.2",
+ "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+ "python": "3.12.14",
+ "model_digest": "ff304a477a01ad3771ecdabc5edbd40da7070efff96f58a553a29c30aa920c8c",
+ "manifest_digests_seen": [
+  "ff304a477a01ad3771ecdabc5edbd40da7070efff96f58a553a29c30aa920c8c"
+ ],
+ "runs": [
+  {
+   "part": "main",
+   "started_utc": "2026-10-09T22:41:24.569801+00:00",
+   "ollama_version": "0.40.2",
+   "think_flag": false,
+   "loaded_size_mb": 2186,
+   "loaded_on_gpu_mb": 1754,
+   "share_on_gpu": 0.802
+  },
+  {
+   "part": "main",
+   "started_utc": "2026-10-10T05:12:30.469547+00:00",
+   "ollama_version": "0.40.2",
+   "think_flag": false,
+   "loaded_size_mb": 1949,
+   "loaded_on_gpu_mb": 1754,
+   "share_on_gpu": 0.9
+  }
+ ]
+}

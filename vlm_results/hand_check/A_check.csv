@@ -1,0 +1,101 @@
+number,item_id,prompt,truth
+1,A_1006_5,cupcake,no
+2,A_1022_4,carpet,no
+3,A_1057_4,wolf,unsure
+4,A_106_5,fish,no
+5,A_107_5,dog,no
+6,A_1119_5,pot,no
+7,A_1120_3,dog,no
+8,A_1140_4,trumpet,yes
+9,A_1154_7,violin,yes
+10,A_1162_4,clarinet,yes
+11,A_1170_4,tweezers,no
+12,A_1189_4,box,no
+13,A_1204_8,carpet,no
+14,A_1253_21,armoire,no
+15,A_1281_5,bench,no
+16,A_12_3,duck,no
+17,A_1305_6,tangerine,no
+18,A_1314_8,desk,no
+19,A_1316_5,bass guitar,no
+20,A_1324_5,whale,no
+21,A_1355_4,clock,no
+22,A_1397_12,beret,no
+23,A_13_4,swan,no
+24,A_1450_7,beret,no
+25,A_1482_12,sunglasses,yes
+26,A_1493_5,remote control,no
+27,A_1509_13,plate,no
+28,A_1512_4,wolf,no
+29,A_1548_6,shovel,no
+30,A_1579_3,ostrich,no
+31,A_1580_6,pencil,no
+32,A_1582_4,bear,no
+33,A_1592_3,ostrich,no
+34,A_1602_4,frog,no
+35,A_161_12,helmet,no
+36,A_1624_6,toy,no
+37,A_1655_5,piano,yes
+38,A_1659_6,fork,unsure
+39,A_165_9,coffee maker,yes
+40,A_167_6,horse,no
+41,A_1702_6,bracelet,no
+42,A_171_5,fish,no
+43,A_1738_7,toy,unsure
+44,A_1796_7,cup,no
+45,A_1816_3,fish,no
+46,A_1818_6,box,unsure
+47,A_1820_3,goose,yes
+48,A_1837_4,comic book,no
+49,A_1840_7,flute,no
+50,A_1872_4,mashed potato,unsure
+51,A_1883_6,airplane,no
+52,A_1885_5,strawberry,unsure
+53,A_1893_4,fish,no
+54,A_1897_5,deer,no
+55,A_1903_4,pigeon,no
+56,A_1911_3,pig,no
+57,A_1911_4,sheep,no
+58,A_210_4,fish,no
+59,A_219_5,clock,yes
+60,A_221_6,boat,no
+61,A_273_4,pen,yes
+62,A_287_7,cup,unsure
+63,A_29_4,baseball,unsure
+64,A_30_3,football,no
+65,A_317_8,armband,no
+66,A_31_4,soccer ball,unsure
+67,A_327_10,coffeepot,no
+68,A_361_6,flip-flop,yes
+69,A_362_4,fish,no
+70,A_364_8,camera,yes
+71,A_36_3,swan,no
+72,A_429_6,nailfile,no
+73,A_449_4,snowboard,no
+74,A_457_7,comic book,no
+75,A_459_5,hat,no
+76,A_463_11,watermelon,unsure
+77,A_495_5,teddy bear,no
+78,A_513_5,dress hat,unsure
+79,A_552_4,manatee,no
+80,A_57_4,cat,no
+81,A_582_15,camera,no
+82,A_587_2,parachutist,no
+83,A_587_4,cat,no
+84,A_670_7,helmet,no
+85,A_688_10,pickup truck,no
+86,A_692_3,dalmatian,no
+87,A_697_7,beret,no
+88,A_702_9,helmet,no
+89,A_74_4,fox,no
+90,A_760_8,cup,no
+91,A_800_4,parrot,no
+92,A_809_6,teddy bear,no
+93,A_82_3,pig,no
+94,A_834_3,dolphin,no
+95,A_850_4,teddy bear,no
+96,A_855_5,cucumber,no
+97,A_860_4,pigeon,no
+98,A_897_4,frog,no
+99,A_906_3,horse,no
+100,A_962_6,squirrel,no
