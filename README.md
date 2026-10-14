@@ -243,5 +243,7 @@ The study grew out of [VisionQuery](https://github.com/aman-hanspal/VisionQuery)
 
 ## License
 
-Code: AGPL-3.0 (see `LICENSE`), matching Ultralytics, which this code depends on.
-Datasets and models keep their own licenses; see `DATA.md`.
+- **Code** (`scripts/`): AGPL-3.0 (see `LICENSE`), matching Ultralytics, which this code depends on.
+- **Data we created** (search words, VLM test lists, VLM answers, hand checks, scores, tables and figures):
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (see `LICENSE-DATA.md`). You may reuse them with credit.
+- **OVT-B, its source datasets and the models** keep their own licenses; see `DATA.md`.

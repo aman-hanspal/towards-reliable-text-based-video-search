@@ -37,6 +37,9 @@ Please cite OVT-B and the relevant source datasets if you use this work.
 
 ## What we do share
 
+Everything below that we created is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (see `LICENSE-DATA.md`);
+the code is AGPL-3.0. OVT-B and its source datasets keep their own licenses.
+
 - Our code (`scripts/`)
 - The frozen query set (`query_set_v3/`): text prompts per video, derived from OVT-B
   category names, with no images or boxes
