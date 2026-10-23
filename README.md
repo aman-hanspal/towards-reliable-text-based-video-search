@@ -16,6 +16,7 @@
 <a href="https://www.nvidia.com/en-in/geforce/laptops/30-series/"><img src="https://img.shields.io/badge/GPU-RTX%203050%20Laptop%204%20GB-1f3a5f" alt="gpu"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/code-AGPL--3.0-555555" alt="code license"></a>
 <a href="LICENSE-DATA.md"><img src="https://img.shields.io/badge/data-CC%20BY%204.0-555555" alt="data license"></a>
+<a href="https://doi.org/10.5281/zenodo.23598399"><img src="https://zenodo.org/badge/1376666868.svg" alt="DOI"></a>
 
 <br><br>
 
@@ -243,7 +244,7 @@ The study grew out of [VisionQuery](https://github.com/aman-hanspal/VisionQuery)
   title  = {Towards Reliable Text-Based Video Search: Evaluating Open-Vocabulary Detectors and VLM Verification},
   author = {Hanspal, Aman and Phadke, Gargi},
   year   = {2026},
-  note   = {Manuscript, 2026}
+  note   = {Manuscript, 2026. Code and data: https://doi.org/10.5281/zenodo.23598399}
 }
 ```
 
