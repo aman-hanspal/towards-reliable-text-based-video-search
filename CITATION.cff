@@ -10,7 +10,7 @@ authors:
   - family-names: Phadke
     given-names: Gargi
     affiliation: "Ramrao Adik Institute of Technology, D. Y. Patil Deemed to be University"
-repository-code: "https://github.com/aman-hanspal/visionquery-research-paper"
+repository-code: "https://github.com/aman-hanspal/towards-reliable-text-based-video-search"
 abstract: >-
   Code, frozen search words, VLM test sets, VLM answers, hand checks and all scores for an evaluation of
   YOLO-World v2 for single-word video search on OVT-B, with a Qwen3-VL 2B verification step, on a 4 GB laptop GPU.
