@@ -6,7 +6,7 @@
 
 **Aman Hanspal** &nbsp;·&nbsp; **Dr. Gargi Phadke**
 
-<sub>Code, frozen test sets and results for the paper (preprint in preparation)</sub>
+<sub>Code, frozen test sets and results accompanying the manuscript (2026)</sub>
 
 <br>
 
@@ -14,7 +14,8 @@
 <a href="https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct"><img src="https://img.shields.io/badge/verifier-Qwen3--VL%202B-1f3a5f" alt="verifier"></a>
 <a href="https://github.com/Coo1Sea/OVT-B-Dataset"><img src="https://img.shields.io/badge/dataset-OVT--B%20(1%2C972%20videos)-1f3a5f" alt="dataset"></a>
 <a href="https://www.nvidia.com/en-in/geforce/laptops/30-series/"><img src="https://img.shields.io/badge/GPU-RTX%203050%20Laptop%204%20GB-1f3a5f" alt="gpu"></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-555555" alt="license"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/code-AGPL--3.0-555555" alt="code license"></a>
+<a href="LICENSE-DATA.md"><img src="https://img.shields.io/badge/data-CC%20BY%204.0-555555" alt="data license"></a>
 
 <br><br>
 
@@ -44,6 +45,9 @@ A search engine has to:
 
 We measure both, using present, easy-absent (unrelated) and hard-absent (lookalike) text queries, and test whether
 a vision-language model (VLM) can verify detections and remove lookalike false alarms.
+
+> In the code and file names, `easy_absent` = **unrelated** words and `hard_absent` = **lookalike** words (the terms
+> used in the paper).
 
 | Component | Used in this study |
 |---|---|
@@ -218,6 +222,8 @@ The detector runner refuses to run unless the query set matches the frozen hash 
 - YouTube-VIS sequences keep every 5th frame, so all timing is reported per frame,
   never in seconds.
 - One video (LVVIS/train_03031) failed conversion and is excluded.
+- `vlm_results/hand_check/B_check_before_consistency_pass.csv` is the first labelling of the 61 rejected Set B crops;
+  `B_check.csv` is the final version, after rows flagged as inconsistent were re-checked by the annotator.
 
 ## Acknowledgements
 
@@ -237,7 +243,7 @@ The study grew out of [VisionQuery](https://github.com/aman-hanspal/VisionQuery)
   title  = {Towards Reliable Text-Based Video Search: Evaluating Open-Vocabulary Detectors and VLM Verification},
   author = {Hanspal, Aman and Phadke, Gargi},
   year   = {2026},
-  note   = {Preprint, in preparation}
+  note   = {Manuscript, 2026}
 }
 ```
 

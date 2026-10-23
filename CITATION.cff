@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+type: software
+title: "Towards Reliable Text-Based Video Search: Evaluating Open-Vocabulary Detectors and VLM Verification (code and data)"
+version: "1.0"
+authors:
+  - family-names: Hanspal
+    given-names: Aman
+    affiliation: "Ramrao Adik Institute of Technology, D. Y. Patil Deemed to be University"
+  - family-names: Phadke
+    given-names: Gargi
+    affiliation: "Ramrao Adik Institute of Technology, D. Y. Patil Deemed to be University"
+repository-code: "https://github.com/aman-hanspal/visionquery-research-paper"
+abstract: >-
+  Code, frozen search words, VLM test sets, VLM answers, hand checks and all scores for an evaluation of
+  YOLO-World v2 for single-word video search on OVT-B, with a Qwen3-VL 2B verification step, on a 4 GB laptop GPU.
+keywords:
+  - open-vocabulary object detection
+  - video search
+  - false positives
+  - vision-language models
+  - YOLO-World
+  - OVT-B

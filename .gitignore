@@ -35,3 +35,6 @@
 __pycache__/
 *.pyc
 /scores_full/prompt_scores.csv
+
+!/CITATION.cff
+!/LICENSE-DATA.md
